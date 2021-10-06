@@ -1,4 +1,0 @@
-<resources>
-    <!-- Override default screen margins of 16dp -->
-    <dimen name="misnapworkflow_help_screen_font_size">15sp</dimen>
-</resources>

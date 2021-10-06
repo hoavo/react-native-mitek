@@ -1,4 +1,4 @@
-package com.rn_misnap;
+package com.reactnativemitek;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

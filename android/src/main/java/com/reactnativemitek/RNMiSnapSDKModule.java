@@ -1,4 +1,4 @@
-package com.rn_misnap;
+package com.reactnativemitek;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -21,13 +21,16 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdkVersion safeExtGet('Mitek2_compileSdkVersion', rootProject.ext.compileSdkVersion)
     defaultConfig {
-       
         minSdkVersion safeExtGet('Mitek_minSdkVersion', 19)
         targetSdkVersion safeExtGet('Mitek_targetSdkVersion', 29)
         versionCode 1
         versionName "1.0"
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a", "armeabi", "x86", "x86_64"
+        }
 
     }
 
@@ -83,44 +86,9 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-     // Add dependency for MiSnap external API
-    implementation (project(':api-release'))
-    implementation (project(':misnapcamera-release'))
-    implementation (project(':mibidata-release'))
-    implementation (project(':imageutils-release'))
-    implementation "org.greenrobot:eventbus:$eventbusVersion"
 
-    implementation (project(':misnapscience-release'))
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
 
-    // MiSnap and Barcode scanning both depend on Apache Sanselan. Add it once for both.
-    implementation (project(':sanselan-release'))
-
-    // Add dependency for MiSnap workflow(s)
-    implementation project(':misnapworkflow_UX2')
-
-    implementation project(':misnapcontroller')
-
-    /** Optional support for Credit Card scanning and PDF417 Driver's License
-    * scanning can be added or removed below
-    */
-
-    // Add dependency for barcode scanning
-    implementation (project(':barcode-release'))
-    implementation project(':barcodecontroller')
-
-    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
-
-    // Add dependencies for Facial Capture science
-    implementation (project(':facialcapturescience-release'))
-    implementation 'commons-io:commons-io:2.5'
-    implementation 'org.slf4j:slf4j-android:1.7.12'
-    implementation project(':facialcapturesciencedepface-release')
-    implementation project(':facialcapturesciencedepquality-release')
-    implementation project(':facialcapturesciencedepliveness-release')
-    implementation project(':facialcapturesciencedepcrypto-release')
-
-    // Add dependency for your custom Facial Capture workflow
-    implementation project(':facialcaptureworkflow')
 }
 
 
