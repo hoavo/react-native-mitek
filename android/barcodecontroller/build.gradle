@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion project.coreMinSdk
+        targetSdkVersion project.targetSdkVersion
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable true
+            minifyEnabled false
+            shrinkResources false
+            testCoverageEnabled true
+        }
+
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.appcompat:appcompat:1.0.0"
+    implementation "androidx.fragment:fragment:1.0.0"
+
+    implementation "org.greenrobot:eventbus:$eventbusVersion"
+
+    implementation (project(':api-release'))
+
+    implementation (project(':misnapcamera-release'))
+
+    implementation (project(':imageutils-release'))
+
+    implementation (project(':barcode-release'))
+
+}

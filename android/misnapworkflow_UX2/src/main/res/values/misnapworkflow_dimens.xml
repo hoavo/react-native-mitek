@@ -1,0 +1,14 @@
+<resources>
+    <!-- Override default screen margins of 16dp -->
+    <dimen name="misnapworkflow_activity_horizontal_margin">0dp</dimen>
+    <dimen name="misnapworkflow_activity_vertical_margin">0dp</dimen>
+    <dimen name="misnapworkflow_help_font_size">24sp</dimen>
+    <dimen name="misnapworkflow_ghost_padding_ux2">70dp</dimen>
+    <dimen name="misnapworkflow_button_text_size_ux2">12dp</dimen>
+    <dimen name="misnapworkflow_button_text_size_min_ux2">10sp</dimen>
+    <dimen name="misnapworkflow_button_text_size_max_ux2">20sp</dimen>
+    <dimen name="misnapworkflow_bug_text_size_ux2">30sp</dimen>
+    <dimen name="misnapworkflow_bug_margin_horizontal_ux2">16dp</dimen>
+    <dimen name="misnapworkflow_bug_padding_horizontal_ux2">20dp</dimen>
+    <dimen name="misnapworkflow_bug_padding_vertical_ux2">8dp</dimen>
+</resources>

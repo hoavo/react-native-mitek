@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/facialcapture_background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_images_v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_images_v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_images_v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_images_v4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_images_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_images_h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.32" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_images_h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_images_h4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_button_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_middle_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <TextView
+        android:id="@+id/do_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_title"
+        android:text="@string/facialcapture_manual_mode_help_do_title"
+        android:textColor="@color/facialcapture_tutorial_help_fragment_textview_color"
+        android:textSize="@dimen/facialcapture_help_title_size_large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!--Do Part-->
+    <ImageView
+        android:id="@+id/do_image_first"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_message_first"
+        android:src="@drawable/facialcapture_help_error_auto_1"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_images_h1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_images_h2"
+        app:layout_constraintLeft_toRightOf="@id/guideline_images_v1"
+        app:layout_constraintRight_toLeftOf="@id/guideline_images_v2"
+        />
+
+    <ImageView
+        android:id="@+id/do_image_second"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_message_first"
+        android:src="@drawable/facialcapture_help_error_auto_2"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_images_h1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_images_h2"
+        app:layout_constraintLeft_toRightOf="@id/guideline_images_v3"
+        app:layout_constraintRight_toLeftOf="@id/guideline_images_v4"
+        />
+
+    <TextView
+        android:id="@+id/do_image_first_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_message_first"
+        android:text="@string/facialcapture_manual_mode_help_do_message_first"
+        android:textColor="@color/facialcapture_tutorial_help_fragment_textview_color"
+        android:textSize="@dimen/facialcapture_help_image_description"
+        android:gravity="top|center_horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/do_image_first"
+        app:layout_constraintStart_toStartOf="@+id/do_image_first"
+        app:layout_constraintTop_toBottomOf="@id/do_image_first" />
+
+    <TextView
+        android:id="@+id/do_image_second_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_message_second"
+        android:text="@string/facialcapture_manual_mode_help_do_message_second"
+        android:textColor="@color/facialcapture_tutorial_help_fragment_textview_color"
+        android:textSize="@dimen/facialcapture_help_image_description"
+        android:gravity="top|center_horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/do_image_second"
+        app:layout_constraintStart_toStartOf="@+id/do_image_second"
+        app:layout_constraintTop_toBottomOf="@+id/do_image_second" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facialcapture_manual_mode_help_do_not_title"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_not_title"
+        android:id="@+id/do_not_title"
+        android:textColor="@color/facialcapture_tutorial_help_fragment_textview_color"
+        android:textSize="@dimen/facialcapture_help_title_size_large"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintTop_toTopOf="@id/guideline_middle_horizontal"
+        />
+
+    <!-- Do Not Part-->
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/facialcapture_help_error_auto_4"
+        android:id="@+id/do_not_image_first"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_not_message_first"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_images_h3"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_images_h4"
+        app:layout_constraintLeft_toRightOf="@id/guideline_images_v1"
+        app:layout_constraintRight_toLeftOf="@id/guideline_images_v2"
+        />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/facialcapture_help_error_auto_5"
+        android:id="@+id/do_not_image_second"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_not_message_second"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_images_h3"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_images_h4"
+        app:layout_constraintLeft_toRightOf="@id/guideline_images_v3"
+        app:layout_constraintRight_toLeftOf="@id/guideline_images_v4"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/facialcapture_help_image_description"
+        android:id="@+id/do_not_image_first_message"
+        android:text="@string/facialcapture_manual_mode_help_do_not_message_first"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_not_message_first"
+        android:textColor="@color/facialcapture_tutorial_help_fragment_textview_color"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toStartOf="@+id/do_not_image_first"
+        app:layout_constraintEnd_toEndOf="@+id/do_not_image_first"
+        app:layout_constraintTop_toBottomOf="@+id/do_not_image_first"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/facialcapture_help_image_description"
+        android:text="@string/facialcapture_manual_mode_help_do_not_message_second"
+        android:contentDescription="@string/facialcapture_manual_mode_help_do_not_message_second"
+        android:id="@+id/do_not_image_second_message"
+        android:textColor="@color/facialcapture_tutorial_help_fragment_textview_color"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toStartOf="@id/do_not_image_second"
+        app:layout_constraintEnd_toEndOf="@id/do_not_image_second"
+        app:layout_constraintTop_toBottomOf="@+id/do_not_image_second"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/facialcapture_manual_mode_help_process_button_text"
+        android:contentDescription="@string/facialcapture_manual_mode_help_process_button_text"
+        android:id="@+id/manual_mode_help_process"
+        android:background="@drawable/facialcapture_two_state_button_background"
+        android:textColor="@color/facialcapture_next_button_text_color"
+        android:textSize="@dimen/facialcapture_continue_button_text_size"
+        app:layout_constraintTop_toBottomOf="@id/guideline_button_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

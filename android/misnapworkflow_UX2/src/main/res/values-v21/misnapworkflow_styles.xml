@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MiSnapProgressDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">@color/misnap_black_ux2</item>
+    </style>
+</resources>

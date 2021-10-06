@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bug_animation_ux2">
+        <item>@drawable/misnap_bug_animation_01_ux2</item>
+        <item>@drawable/misnap_bug_animation_02_ux2</item>
+        <item>@drawable/misnap_bug_animation_03_ux2</item>
+        <item>@drawable/misnap_bug_animation_04_ux2</item>
+        <item>@drawable/misnap_bug_animation_05_ux2</item>
+        <item>@drawable/misnap_bug_animation_06_ux2</item>
+        <item>@drawable/misnap_bug_animation_07_ux2</item>
+        <item>@drawable/misnap_bug_animation_08_ux2</item>
+        <item>@drawable/misnap_bug_animation_09_ux2</item>
+        <item>@drawable/misnap_bug_animation_10_ux2</item>
+        <item>@drawable/misnap_bug_animation_11_ux2</item>
+        <item>@drawable/misnap_bug_animation_12_ux2</item>
+        <item>@drawable/misnap_bug_animation_13_ux2</item>
+        <item>@drawable/misnap_bug_animation_14_ux2</item>
+        <item>@drawable/misnap_bug_animation_15_ux2</item>
+        <item>@drawable/misnap_bug_animation_16_ux2</item>
+        <item>@drawable/misnap_bug_animation_17_ux2</item>
+        <item>@drawable/misnap_bug_animation_18_ux2</item>
+        <item>@drawable/misnap_bug_animation_19_ux2</item>
+        <item>@drawable/misnap_bug_animation_20_ux2</item>
+        <item>@drawable/misnap_bug_animation_21_ux2</item>
+        <item>@drawable/misnap_bug_animation_22_ux2</item>
+        <item>@drawable/misnap_bug_animation_23_ux2</item>
+        <item>@drawable/misnap_bug_animation_24_ux2</item>
+        <item>@drawable/misnap_bug_animation_25_ux2</item>
+</array>
+
+</resources>

@@ -1,0 +1,66 @@
+apply plugin: 'com.android.library'
+apply from: '../jacoco.gradle'
+
+android {
+    compileSdkVersion project.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion project.coreMinSdk
+        targetSdkVersion project.targetSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.appcompat:appcompat:1.0.0"
+    implementation "androidx.percentlayout:percentlayout:1.0.0"
+
+    // Eventbus dependency
+    implementation "org.greenrobot:eventbus:$eventbusVersion"
+
+    // Add dependency for core FacialCapture
+    implementation (project(':facialcapturescience-release'))
+    implementation project(':facialcapturesciencedepface-release')
+    implementation project(':facialcapturesciencedepquality-release')
+    implementation project(':facialcapturesciencedepliveness-release')
+    implementation project(':facialcapturesciencedepcrypto-release')
+
+    // Add dependencies for core MiSnap
+    implementation project(':api-release')
+    implementation project(':misnapcamera-release')
+    implementation project(':imageutils-release')
+    implementation project(':mibidata-release')
+
+    androidTestImplementation "androidx.annotation:annotation:1.0.0"
+    androidTestImplementation "androidx.test.ext:junit:1.1.1"
+    androidTestImplementation "androidx.test:rules:1.1.1"
+    testImplementation "junit:junit:$junitVersion"
+    testImplementation "org.robolectric:robolectric:$robolectricVersion"
+
+    androidTestImplementation "com.linkedin.dexmaker:dexmaker-mockito:$dexmakerVersion"
+
+    // TODO KW 2018-06-21:  why is this needed?
+    androidTestImplementation "com.parse.bolts:bolts-tasks:1.4.0"
+}

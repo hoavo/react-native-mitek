@@ -1,3 +1,5 @@
+
+
 buildscript {
     if (project == rootProject) {
         repositories {
@@ -19,9 +21,10 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('Mitek_compileSdkVersion', 29)
+    compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        minSdkVersion safeExtGet('Mitek_minSdkVersion', 16)
+       
+        minSdkVersion safeExtGet('Mitek_minSdkVersion', 19)
         targetSdkVersion safeExtGet('Mitek_targetSdkVersion', 29)
         versionCode 1
         versionName "1.0"
@@ -39,7 +42,31 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+
     }
+}
+
+project.ext {
+    buildToolsVersion = "28.0.0"
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    coreMinSdk = 19
+
+    supportVersion = '28.0.0'
+    eventbusVersion = '3.1.1'
+    constraintLayoutVersion = '1.1.3'
+
+    dexmakerVersion = '2.16.0'
+    supportTestVersion = '1.0.2'
+    mockitoVersion = '2.28.1'
+    robotiumVersion = '5.6.3'
+    espressoVersion = '3.0.1'
+    leakcanaryVersion = '1.5.4'
+    robolectricVersion = '4.3'
+    junitVersion = '4.12'
+    androidAssertJVersion = '1.2.0'
+    guavaVersion = '23.1-android'
+    jacocoVersion = '0.8.3'
 }
 
 repositories {
@@ -56,4 +83,44 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+     // Add dependency for MiSnap external API
+    implementation (project(':api-release'))
+    implementation (project(':misnapcamera-release'))
+    implementation (project(':mibidata-release'))
+    implementation (project(':imageutils-release'))
+    implementation "org.greenrobot:eventbus:$eventbusVersion"
+
+    implementation (project(':misnapscience-release'))
+
+    // MiSnap and Barcode scanning both depend on Apache Sanselan. Add it once for both.
+    implementation (project(':sanselan-release'))
+
+    // Add dependency for MiSnap workflow(s)
+    implementation project(':misnapworkflow_UX2')
+
+    implementation project(':misnapcontroller')
+
+    /** Optional support for Credit Card scanning and PDF417 Driver's License
+    * scanning can be added or removed below
+    */
+
+    // Add dependency for barcode scanning
+    implementation (project(':barcode-release'))
+    implementation project(':barcodecontroller')
+
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+
+    // Add dependencies for Facial Capture science
+    implementation (project(':facialcapturescience-release'))
+    implementation 'commons-io:commons-io:2.5'
+    implementation 'org.slf4j:slf4j-android:1.7.12'
+    implementation project(':facialcapturesciencedepface-release')
+    implementation project(':facialcapturesciencedepquality-release')
+    implementation project(':facialcapturesciencedepliveness-release')
+    implementation project(':facialcapturesciencedepcrypto-release')
+
+    // Add dependency for your custom Facial Capture workflow
+    implementation project(':facialcaptureworkflow')
 }
+
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="misnapworkflow_help_font_size">48sp</dimen>
+    <dimen name="misnapworkflow_ghost_padding_ux2">95dp</dimen>
+</resources>

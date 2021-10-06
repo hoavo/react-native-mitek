@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/facialcapture_background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_top_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_margin_top_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_image_v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_image_v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.37" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_image_v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.63" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_image_v4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+
+    <ImageView
+        android:id="@+id/auto_mode_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:background="@drawable/facialcapture_timer_icon"
+        android:contentDescription="@string/facialcapture_auto_mode_tutorial_tts"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/guideline_image_v1"
+        app:layout_constraintTop_toTopOf="@+id/guideline_margin_top_10" />
+
+    <TextView
+        android:id="@+id/timeout_message_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:text="@string/facialcapture_timeout_message_1"
+        android:contentDescription="@string/facialcapture_timeout_message_1"
+        android:textColor="@color/facialcapture_black"
+        android:textSize="@dimen/facialcapture_help_title_size_large"
+        android:fontFamily="@font/font_brownpro"
+        app:layout_constraintEnd_toEndOf="@id/guideline_image_v4"
+        app:layout_constraintStart_toEndOf="@+id/auto_mode_timer"
+        app:layout_constraintTop_toTopOf="@+id/guideline_margin_top_10"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:scaleType="fitXY"
+        android:text="@string/facialcapture_timeout_message_2"
+        android:contentDescription="@string/facialcapture_timeout_message_2"
+        android:textColor="@color/facialcapture_black"
+        android:textSize="@dimen/facialcapture_help_title_size_large"
+        android:fontFamily="@font/font_brownpro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_margin_top_25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_image_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_image_h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <ImageView
+        android:id="@+id/timeout_image_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/facialcapture_timeout_auto_capture"
+        android:src="@drawable/facialcapture_timeout_auto"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_image_h2"
+        app:layout_constraintLeft_toRightOf="@id/guideline_image_v1"
+        app:layout_constraintRight_toLeftOf="@id/guideline_image_v2"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_image_h1"
+
+        />
+
+    <ImageView
+        android:id="@+id/timeout_image_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/facialcapture_timeout_manual_capture"
+        android:src="@drawable/facialcapture_timeout_manual"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_image_h2"
+        app:layout_constraintLeft_toRightOf="@id/guideline_image_v3"
+        app:layout_constraintRight_toLeftOf="@id/guideline_image_v4"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_image_h1" />
+
+
+    <TextView
+        android:id="@+id/timeout_auto_capture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/facialcapture_timeout_auto_capture"
+        android:textColor="@color/facialcapture_black"
+        android:textSize="@dimen/facialcapture_help_image_description"
+        android:fontFamily="@font/font_brownpro"
+        app:layout_constraintEnd_toEndOf="@+id/timeout_image_1"
+        app:layout_constraintStart_toStartOf="@+id/timeout_image_1"
+        app:layout_constraintTop_toBottomOf="@+id/timeout_image_1" />
+
+    <TextView
+        android:id="@+id/timeout_manul_capture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/facialcapture_timeout_manual_capture"
+        android:textColor="@color/facialcapture_black"
+        android:textSize="@dimen/facialcapture_help_image_description"
+        android:fontFamily="@font/font_brownpro"
+        app:layout_constraintEnd_toEndOf="@+id/timeout_image_2"
+        app:layout_constraintStart_toStartOf="@+id/timeout_image_2"
+        app:layout_constraintTop_toBottomOf="@+id/timeout_image_2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_button_v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_button_v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_button_v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_button_v4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_button_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_button_h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <Button
+        android:id="@+id/failover_to_auto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/facialcapture_two_state_button_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/facialcapture_timeout_auto_capture_button_text"
+        android:contentDescription="@string/facialcapture_timeout_auto_capture_button_text"
+        android:textSize="@dimen/facialcapture_continue_button_text_size"
+        android:fontFamily="@font/font_brownpro"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_button_h2"
+        app:layout_constraintLeft_toRightOf="@+id/guideline_button_v1"
+        app:layout_constraintRight_toLeftOf="@+id/guideline_button_v2"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_button_h1" />
+
+    <Button
+        android:id="@+id/failover_to_manual"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/facialcapture_two_state_button_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/facialcapture_timeout_manual_capture_button_text"
+        android:contentDescription="@string/facialcapture_timeout_manual_capture_button_text"
+        android:textSize="@dimen/facialcapture_continue_button_text_size"
+        android:fontFamily="@font/font_brownpro"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_button_h2"
+        app:layout_constraintLeft_toRightOf="@+id/guideline_button_v3"
+        app:layout_constraintRight_toLeftOf="@+id/guideline_button_v4"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_button_h1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

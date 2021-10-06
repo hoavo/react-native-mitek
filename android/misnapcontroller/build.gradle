@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion project.coreMinSdk
+        targetSdkVersion project.targetSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+            all {
+                jvmArgs '-noverify'
+            }
+        }
+
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable true
+            minifyEnabled false
+            shrinkResources false
+            testCoverageEnabled true
+        }
+
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.fragment:fragment:1.0.0"
+    implementation "androidx.appcompat:appcompat:1.0.0"
+    implementation "org.greenrobot:eventbus:$eventbusVersion"
+    implementation 'pub.devrel:easypermissions:1.2.0'
+
+    implementation (project(':api-release'))
+    implementation (project(':imageutils-release'))
+    implementation (project(':mibidata-release'))
+    implementation (project(':misnapcamera-release'))
+    implementation (project(':misnapscience-release'))
+
+
+}
