@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/hoavo/react-native-mitek.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm}"
-
+  s.vendored_frameworks = 'ios/MiSnapSDK/MiSnapSDK.xcframework', 'ios/MiSnapBarcodeScanner/MiSnapBarcodeScanner.xcframework', 'ios/MiSnapLivenessSDK/MiSnapLiveness.xcframework', 'ios/MiSnapSDK/MiSnapSDKScience.xcframework', 'ios/MiSnapSDK/MobileFlow.xcframework', 'ios/MiSnapSDK/MiSnapSDKMibiData.xcframework', 'ios/MiSnapSDK/MiSnapSDKCamera.xcframework', 'ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLight.xcframework'
   s.dependency "React-Core"
 end

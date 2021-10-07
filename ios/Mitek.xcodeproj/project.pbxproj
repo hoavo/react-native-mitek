@@ -3,13 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* Mitek.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* Mitek.m */; };
-
+		AC0D8436270F6BFE00B512AF /* MiSnapSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0D8363270F6BFC00B512AF /* MiSnapSDK.xcframework */; };
+		AC0D8437270F6BFE00B512AF /* MobileFlow.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0D8364270F6BFC00B512AF /* MobileFlow.xcframework */; };
+		AC0D8438270F6BFE00B512AF /* MiSnapSDKMibiData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0D8365270F6BFC00B512AF /* MiSnapSDKMibiData.xcframework */; };
+		AC0D8439270F6BFE00B512AF /* MiSnapSDKOverlayViewUX2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D838E270F6BFD00B512AF /* MiSnapSDKOverlayViewUX2.m */; };
+		AC0D843A270F6BFE00B512AF /* MiSnapSDKViewControllerUX2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D83BC270F6BFD00B512AF /* MiSnapSDKViewControllerUX2.m */; };
+		AC0D843B270F6BFE00B512AF /* MiSnapSDKOverlayViewUX1.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D8429270F6BFE00B512AF /* MiSnapSDKOverlayViewUX1.m */; };
+		AC0D843C270F6BFE00B512AF /* MiSnapSDKViewControllerUX1.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D842C270F6BFE00B512AF /* MiSnapSDKViewControllerUX1.m */; };
+		AC0D843D270F6BFE00B512AF /* MiSnapSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D842F270F6BFE00B512AF /* MiSnapSDKViewController.m */; };
+		AC0D843E270F6BFE00B512AF /* MiSnapSDKOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D8431270F6BFE00B512AF /* MiSnapSDKOverlayView.m */; };
+		AC0D843F270F6BFE00B512AF /* MiSnapSDKTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D8433270F6BFE00B512AF /* MiSnapSDKTutorialViewController.m */; };
+		AC0D8440270F6BFE00B512AF /* MiSnapSDKScience.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0D8434270F6BFE00B512AF /* MiSnapSDKScience.xcframework */; };
+		AC0D8441270F6BFE00B512AF /* MiSnapSDKCamera.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0D8435270F6BFE00B512AF /* MiSnapSDKCamera.xcframework */; };
+		AC0D845F270F6C1D00B512AF /* MiSnapBarcodeScanner+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D845A270F6C1D00B512AF /* MiSnapBarcodeScanner+NSString.m */; };
+		AC0D8460270F6C1D00B512AF /* MiSnapBarcodeScannerTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D845B270F6C1D00B512AF /* MiSnapBarcodeScannerTutorialViewController.m */; };
+		AC0D8461270F6C1D00B512AF /* MiSnapBarcodeScannerOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D845C270F6C1D00B512AF /* MiSnapBarcodeScannerOverlayView.m */; };
+		AC0D8462270F6C1D00B512AF /* MiSnapBarcodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D845D270F6C1D00B512AF /* MiSnapBarcodeScannerViewController.m */; };
+		AC0D8463270F6C1D00B512AF /* MiSnapBarcodeScanner.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0D845E270F6C1D00B512AF /* MiSnapBarcodeScanner.xcframework */; };
+		AC0D8483270F6C2E00B512AF /* MiSnapBarcodeScannerLightOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D8479270F6C2E00B512AF /* MiSnapBarcodeScannerLightOverlayView.m */; };
+		AC0D8484270F6C2E00B512AF /* MiSnapBarcodeScannerLight+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D847C270F6C2E00B512AF /* MiSnapBarcodeScannerLight+NSString.m */; };
+		AC0D8485270F6C2E00B512AF /* MiSnapBarcodeScannerLightCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D847E270F6C2E00B512AF /* MiSnapBarcodeScannerLightCamera.m */; };
+		AC0D8486270F6C2E00B512AF /* MiSnapBarcodeScannerLightTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D847F270F6C2E00B512AF /* MiSnapBarcodeScannerLightTutorialViewController.m */; };
+		AC0D8487270F6C2E00B512AF /* MiSnapBarcodeScannerLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0D8481270F6C2E00B512AF /* MiSnapBarcodeScannerLightViewController.m */; };
+		AC0D8488270F6C2E00B512AF /* MiSnapBarcodeScannerLight.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0D8482270F6C2E00B512AF /* MiSnapBarcodeScannerLight.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +46,253 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libMitek.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMitek.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
+		AC0D8363270F6BFC00B512AF /* MiSnapSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiSnapSDK.xcframework; sourceTree = "<group>"; };
+		AC0D8364270F6BFC00B512AF /* MobileFlow.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MobileFlow.xcframework; sourceTree = "<group>"; };
+		AC0D8365270F6BFC00B512AF /* MiSnapSDKMibiData.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiSnapSDKMibiData.xcframework; sourceTree = "<group>"; };
+		AC0D8369270F6BFC00B512AF /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/misnap_powered_by_mitek.png; sourceTree = "<group>"; };
+		AC0D836B270F6BFC00B512AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MiSnapSDKLocalizable.strings; sourceTree = "<group>"; };
+		AC0D836C270F6BFC00B512AF /* misnap_tutorial_id_with_background_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_with_background_portrait_2.jpg; sourceTree = "<group>"; };
+		AC0D836D270F6BFC00B512AF /* misnap_tutorial_id_back_with_background_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_back_with_background_portrait_2.jpg; sourceTree = "<group>"; };
+		AC0D836E270F6BFC00B512AF /* es */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = es; path = es.lproj/misnap_powered_by_mitek.png; sourceTree = "<group>"; };
+		AC0D836F270F6BFC00B512AF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MiSnapSDKLocalizable.strings; sourceTree = "<group>"; };
+		AC0D8370270F6BFC00B512AF /* ghost_doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_doc.png; sourceTree = "<group>"; };
+		AC0D8371270F6BFC00B512AF /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
+		AC0D8372270F6BFC00B512AF /* misnap_tutorial_id_with_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_with_background.jpg; sourceTree = "<group>"; };
+		AC0D8373270F6BFC00B512AF /* ghost_check_back_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_check_back_portrait.png; sourceTree = "<group>"; };
+		AC0D8374270F6BFC00B512AF /* ghost_balance_remittance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_balance_remittance.png; sourceTree = "<group>"; };
+		AC0D8375270F6BFC00B512AF /* ghost_check_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_check_front.png; sourceTree = "<group>"; };
+		AC0D8376270F6BFC00B512AF /* ghost_check_front_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_check_front_portrait.png; sourceTree = "<group>"; };
+		AC0D8377270F6BFC00B512AF /* misnap_tutorial_id_back_with_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_back_with_background.jpg; sourceTree = "<group>"; };
+		AC0D8378270F6BFC00B512AF /* misnap_tutorial_warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_tutorial_warning.png; sourceTree = "<group>"; };
+		AC0D8379270F6BFC00B512AF /* ghost_doc_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_doc_portrait.png; sourceTree = "<group>"; };
+		AC0D837A270F6BFC00B512AF /* misnap_tutorial_passport_with_background_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport_with_background_portrait_2.jpg; sourceTree = "<group>"; };
+		AC0D837B270F6BFC00B512AF /* ghost_id_card_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_id_card_portrait.png; sourceTree = "<group>"; };
+		AC0D837C270F6BFC00B512AF /* misnap_tutorial_id_back_with_background_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_back_with_background_portrait.jpg; sourceTree = "<group>"; };
+		AC0D837D270F6BFC00B512AF /* misnap_tutorial_passport_with_background_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport_with_background_portrait.jpg; sourceTree = "<group>"; };
+		AC0D837E270F6BFC00B512AF /* misnap_tutorial_id_with_background_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_with_background_portrait.jpg; sourceTree = "<group>"; };
+		AC0D837F270F6BFC00B512AF /* ghost_passport_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_passport_portrait.png; sourceTree = "<group>"; };
+		AC0D8380270F6BFC00B512AF /* ghost_check_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_check_back.png; sourceTree = "<group>"; };
+		AC0D8381270F6BFC00B512AF /* ghost_w2_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_w2_portrait.png; sourceTree = "<group>"; };
+		AC0D8382270F6BFD00B512AF /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		AC0D8383270F6BFD00B512AF /* ghost_balance_remittance_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_balance_remittance_portrait.png; sourceTree = "<group>"; };
+		AC0D8384270F6BFD00B512AF /* ghost_id_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_id_card.png; sourceTree = "<group>"; };
+		AC0D8385270F6BFD00B512AF /* ghost_w2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_w2.png; sourceTree = "<group>"; };
+		AC0D8386270F6BFD00B512AF /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/misnap_powered_by_mitek.png; sourceTree = "<group>"; };
+		AC0D8387270F6BFD00B512AF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MiSnapSDKLocalizable.strings; sourceTree = "<group>"; };
+		AC0D8388270F6BFD00B512AF /* misnap_tutorial_red_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "misnap_tutorial_red_arrow@3x.png"; sourceTree = "<group>"; };
+		AC0D8389270F6BFD00B512AF /* misnap_tutorial_passport_with_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport_with_background.jpg; sourceTree = "<group>"; };
+		AC0D838A270F6BFD00B512AF /* background-dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-dots.png"; sourceTree = "<group>"; };
+		AC0D838B270F6BFD00B512AF /* misnap_tutorial_red_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "misnap_tutorial_red_arrow@2x.png"; sourceTree = "<group>"; };
+		AC0D838C270F6BFD00B512AF /* ghost_passport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_passport.png; sourceTree = "<group>"; };
+		AC0D838E270F6BFD00B512AF /* MiSnapSDKOverlayViewUX2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapSDKOverlayViewUX2.m; sourceTree = "<group>"; };
+		AC0D838F270F6BFD00B512AF /* MiSnapSDKViewControllerUX2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapSDKViewControllerUX2.h; sourceTree = "<group>"; };
+		AC0D8391270F6BFD00B512AF /* MiSnapUX2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MiSnapUX2.storyboard; sourceTree = "<group>"; };
+		AC0D8393270F6BFD00B512AF /* misnap_en_button_flash_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_button_flash_off.png; sourceTree = "<group>"; };
+		AC0D8394270F6BFD00B512AF /* misnap_en_button_back_to_auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_button_back_to_auto.png; sourceTree = "<group>"; };
+		AC0D8395270F6BFD00B512AF /* misnap_en_button_flash_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_button_flash_on.png; sourceTree = "<group>"; };
+		AC0D8396270F6BFD00B512AF /* misnap_en_button_capture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_button_capture.png; sourceTree = "<group>"; };
+		AC0D8397270F6BFD00B512AF /* misnap_en_powered_by_mitek_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_powered_by_mitek_overlay.png; sourceTree = "<group>"; };
+		AC0D8398270F6BFD00B512AF /* misnap_en_corner_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_corner_on.png; sourceTree = "<group>"; };
+		AC0D839A270F6BFD00B512AF /* wink_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_17.png; sourceTree = "<group>"; };
+		AC0D839B270F6BFD00B512AF /* wink_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_16.png; sourceTree = "<group>"; };
+		AC0D839C270F6BFD00B512AF /* wink_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_28.png; sourceTree = "<group>"; };
+		AC0D839D270F6BFD00B512AF /* wink_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_14.png; sourceTree = "<group>"; };
+		AC0D839E270F6BFD00B512AF /* wink_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_15.png; sourceTree = "<group>"; };
+		AC0D839F270F6BFD00B512AF /* wink_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_29.png; sourceTree = "<group>"; };
+		AC0D83A0270F6BFD00B512AF /* wink_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_11.png; sourceTree = "<group>"; };
+		AC0D83A1270F6BFD00B512AF /* wink_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_10.png; sourceTree = "<group>"; };
+		AC0D83A2270F6BFD00B512AF /* wink_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_12.png; sourceTree = "<group>"; };
+		AC0D83A3270F6BFD00B512AF /* wink_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_13.png; sourceTree = "<group>"; };
+		AC0D83A4270F6BFD00B512AF /* wink_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_22.png; sourceTree = "<group>"; };
+		AC0D83A5270F6BFD00B512AF /* wink_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_23.png; sourceTree = "<group>"; };
+		AC0D83A6270F6BFD00B512AF /* wink_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_21.png; sourceTree = "<group>"; };
+		AC0D83A7270F6BFD00B512AF /* wink_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_34.png; sourceTree = "<group>"; };
+		AC0D83A8270F6BFD00B512AF /* wink_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_20.png; sourceTree = "<group>"; };
+		AC0D83A9270F6BFD00B512AF /* wink_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_24.png; sourceTree = "<group>"; };
+		AC0D83AA270F6BFD00B512AF /* wink_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_30.png; sourceTree = "<group>"; };
+		AC0D83AB270F6BFD00B512AF /* wink_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_18.png; sourceTree = "<group>"; };
+		AC0D83AC270F6BFD00B512AF /* wink_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_19.png; sourceTree = "<group>"; };
+		AC0D83AD270F6BFD00B512AF /* wink_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_31.png; sourceTree = "<group>"; };
+		AC0D83AE270F6BFD00B512AF /* wink_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_25.png; sourceTree = "<group>"; };
+		AC0D83AF270F6BFD00B512AF /* wink_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_33.png; sourceTree = "<group>"; };
+		AC0D83B0270F6BFD00B512AF /* wink_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_27.png; sourceTree = "<group>"; };
+		AC0D83B1270F6BFD00B512AF /* wink_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_26.png; sourceTree = "<group>"; };
+		AC0D83B2270F6BFD00B512AF /* wink_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink_32.png; sourceTree = "<group>"; };
+		AC0D83B3270F6BFD00B512AF /* misnap_en_button_continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_button_continue.png; sourceTree = "<group>"; };
+		AC0D83B4270F6BFD00B512AF /* misnap_en_corner_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_corner_off.png; sourceTree = "<group>"; };
+		AC0D83B5270F6BFD00B512AF /* misnap_en_menu_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_menu_top.png; sourceTree = "<group>"; };
+		AC0D83B6270F6BFD00B512AF /* misnap_en_button_flash_auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_button_flash_auto.png; sourceTree = "<group>"; };
+		AC0D83B7270F6BFD00B512AF /* misnap_en_menu_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_menu_bottom.png; sourceTree = "<group>"; };
+		AC0D83B8270F6BFD00B512AF /* misnap_en_button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_button_back.png; sourceTree = "<group>"; };
+		AC0D83B9270F6BFD00B512AF /* misnap_en_branding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_branding.png; sourceTree = "<group>"; };
+		AC0D83BA270F6BFD00B512AF /* misnap_en_button_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_en_button_help.png; sourceTree = "<group>"; };
+		AC0D83BB270F6BFD00B512AF /* MiSnapSDKOverlayViewUX2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapSDKOverlayViewUX2.h; sourceTree = "<group>"; };
+		AC0D83BC270F6BFD00B512AF /* MiSnapSDKViewControllerUX2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapSDKViewControllerUX2.m; sourceTree = "<group>"; };
+		AC0D83BF270F6BFD00B512AF /* MiSnapUX1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MiSnapUX1.storyboard; sourceTree = "<group>"; };
+		AC0D83C1270F6BFD00B512AF /* error_use_dark_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_use_dark_background.png; sourceTree = "<group>"; };
+		AC0D83C2270F6BFD00B512AF /* error_more_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_more_light.png; sourceTree = "<group>"; };
+		AC0D83C3270F6BFD00B512AF /* error_getcloser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_getcloser.png; sourceTree = "<group>"; };
+		AC0D83C4270F6BFD00B512AF /* error_use_front_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_use_front_check.png; sourceTree = "<group>"; };
+		AC0D83C5270F6BFD00B512AF /* error_less_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_less_light.png; sourceTree = "<group>"; };
+		AC0D83C6270F6BFD00B512AF /* error_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_center.png; sourceTree = "<group>"; };
+		AC0D83C7270F6BFD00B512AF /* camera_cancel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_cancel_icon.png; sourceTree = "<group>"; };
+		AC0D83C9270F6BFD00B512AF /* bug_animation_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_29.png; sourceTree = "<group>"; };
+		AC0D83CA270F6BFD00B512AF /* bug_animation_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_01.png; sourceTree = "<group>"; };
+		AC0D83CB270F6BFD00B512AF /* bug_animation_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_15.png; sourceTree = "<group>"; };
+		AC0D83CC270F6BFD00B512AF /* bug_animation_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_14.png; sourceTree = "<group>"; };
+		AC0D83CD270F6BFD00B512AF /* bug_animation_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_28.png; sourceTree = "<group>"; };
+		AC0D83CE270F6BFD00B512AF /* bug_animation_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_16.png; sourceTree = "<group>"; };
+		AC0D83CF270F6BFD00B512AF /* bug_animation_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_02.png; sourceTree = "<group>"; };
+		AC0D83D0270F6BFD00B512AF /* bug_animation_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_03.png; sourceTree = "<group>"; };
+		AC0D83D1270F6BFD00B512AF /* bug_animation_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_17.png; sourceTree = "<group>"; };
+		AC0D83D2270F6BFD00B512AF /* bug_animation_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_13.png; sourceTree = "<group>"; };
+		AC0D83D3270F6BFD00B512AF /* bug_animation_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_07.png; sourceTree = "<group>"; };
+		AC0D83D4270F6BFD00B512AF /* bug_animation_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_06.png; sourceTree = "<group>"; };
+		AC0D83D5270F6BFD00B512AF /* bug_animation_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_12.png; sourceTree = "<group>"; };
+		AC0D83D6270F6BFD00B512AF /* bug_animation_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_04.png; sourceTree = "<group>"; };
+		AC0D83D7270F6BFD00B512AF /* bug_animation_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_10.png; sourceTree = "<group>"; };
+		AC0D83D8270F6BFD00B512AF /* bug_animation_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_38.png; sourceTree = "<group>"; };
+		AC0D83D9270F6BFD00B512AF /* bug_animation_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_39.png; sourceTree = "<group>"; };
+		AC0D83DA270F6BFD00B512AF /* bug_animation_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_11.png; sourceTree = "<group>"; };
+		AC0D83DB270F6BFD00B512AF /* bug_animation_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_05.png; sourceTree = "<group>"; };
+		AC0D83DC270F6BFD00B512AF /* bug_animation_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_08.png; sourceTree = "<group>"; };
+		AC0D83DD270F6BFD00B512AF /* bug_animation_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_20.png; sourceTree = "<group>"; };
+		AC0D83DE270F6BFD00B512AF /* bug_animation_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_34.png; sourceTree = "<group>"; };
+		AC0D83DF270F6BFD00B512AF /* bug_animation_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_35.png; sourceTree = "<group>"; };
+		AC0D83E0270F6BFD00B512AF /* bug_animation_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_21.png; sourceTree = "<group>"; };
+		AC0D83E1270F6BFD00B512AF /* bug_animation_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_09.png; sourceTree = "<group>"; };
+		AC0D83E2270F6BFD00B512AF /* bug_animation_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_37.png; sourceTree = "<group>"; };
+		AC0D83E3270F6BFE00B512AF /* bug_animation_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_23.png; sourceTree = "<group>"; };
+		AC0D83E4270F6BFE00B512AF /* bug_animation_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_22.png; sourceTree = "<group>"; };
+		AC0D83E5270F6BFE00B512AF /* bug_animation_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_36.png; sourceTree = "<group>"; };
+		AC0D83E6270F6BFE00B512AF /* bug_animation_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_32.png; sourceTree = "<group>"; };
+		AC0D83E7270F6BFE00B512AF /* bug_animation_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_26.png; sourceTree = "<group>"; };
+		AC0D83E8270F6BFE00B512AF /* bug_animation_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_27.png; sourceTree = "<group>"; };
+		AC0D83E9270F6BFE00B512AF /* bug_animation_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_33.png; sourceTree = "<group>"; };
+		AC0D83EA270F6BFE00B512AF /* bug_animation_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_25.png; sourceTree = "<group>"; };
+		AC0D83EB270F6BFE00B512AF /* bug_animation_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_31.png; sourceTree = "<group>"; };
+		AC0D83EC270F6BFE00B512AF /* bug_animation_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_19.png; sourceTree = "<group>"; };
+		AC0D83ED270F6BFE00B512AF /* bug_animation_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_18.png; sourceTree = "<group>"; };
+		AC0D83EE270F6BFE00B512AF /* bug_animation_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_30.png; sourceTree = "<group>"; };
+		AC0D83EF270F6BFE00B512AF /* bug_animation_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_24.png; sourceTree = "<group>"; };
+		AC0D83F0270F6BFE00B512AF /* bug_animation_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_animation_40.png; sourceTree = "<group>"; };
+		AC0D83F1270F6BFE00B512AF /* error_flip_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_flip_check.png; sourceTree = "<group>"; };
+		AC0D83F2270F6BFE00B512AF /* error_reduce_glare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_reduce_glare.png; sourceTree = "<group>"; };
+		AC0D83F3270F6BFE00B512AF /* error_use_plain_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_use_plain_background.png; sourceTree = "<group>"; };
+		AC0D83F4270F6BFE00B512AF /* error_tooclose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_tooclose.png; sourceTree = "<group>"; };
+		AC0D83F5270F6BFE00B512AF /* camera_shutter_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_shutter_icon.png; sourceTree = "<group>"; };
+		AC0D83F6270F6BFE00B512AF /* icon_flash_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_flash_off.png; sourceTree = "<group>"; };
+		AC0D83F8270F6BFE00B512AF /* gauge_open_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_16.png; sourceTree = "<group>"; };
+		AC0D83F9270F6BFE00B512AF /* gauge_open_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_02.png; sourceTree = "<group>"; };
+		AC0D83FA270F6BFE00B512AF /* gauge_open_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_03.png; sourceTree = "<group>"; };
+		AC0D83FB270F6BFE00B512AF /* gauge_open_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_17.png; sourceTree = "<group>"; };
+		AC0D83FC270F6BFE00B512AF /* gauge_fill_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_35.png; sourceTree = "<group>"; };
+		AC0D83FD270F6BFE00B512AF /* gauge_open_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_01.png; sourceTree = "<group>"; };
+		AC0D83FE270F6BFE00B512AF /* gauge_open_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_15.png; sourceTree = "<group>"; };
+		AC0D83FF270F6BFE00B512AF /* gauge_open_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_14.png; sourceTree = "<group>"; };
+		AC0D8400270F6BFE00B512AF /* gauge_fill_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_20.png; sourceTree = "<group>"; };
+		AC0D8401270F6BFE00B512AF /* gauge_fill_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_30.png; sourceTree = "<group>"; };
+		AC0D8402270F6BFE00B512AF /* gauge_open_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_04.png; sourceTree = "<group>"; };
+		AC0D8403270F6BFE00B512AF /* gauge_open_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_10.png; sourceTree = "<group>"; };
+		AC0D8404270F6BFE00B512AF /* gauge_open_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_11.png; sourceTree = "<group>"; };
+		AC0D8405270F6BFE00B512AF /* gauge_open_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_05.png; sourceTree = "<group>"; };
+		AC0D8406270F6BFE00B512AF /* gauge_fill_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_25.png; sourceTree = "<group>"; };
+		AC0D8407270F6BFE00B512AF /* gauge_fill_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_100.png; sourceTree = "<group>"; };
+		AC0D8408270F6BFE00B512AF /* gauge_open_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_13.png; sourceTree = "<group>"; };
+		AC0D8409270F6BFE00B512AF /* gauge_open_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_07.png; sourceTree = "<group>"; };
+		AC0D840A270F6BFE00B512AF /* gauge_open_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_06.png; sourceTree = "<group>"; };
+		AC0D840B270F6BFE00B512AF /* gauge_open_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_12.png; sourceTree = "<group>"; };
+		AC0D840C270F6BFE00B512AF /* gauge_fill_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_55.png; sourceTree = "<group>"; };
+		AC0D840D270F6BFE00B512AF /* gauge_fill_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_40.png; sourceTree = "<group>"; };
+		AC0D840E270F6BFE00B512AF /* gauge_fill_95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_95.png; sourceTree = "<group>"; };
+		AC0D840F270F6BFE00B512AF /* gauge_fill_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_80.png; sourceTree = "<group>"; };
+		AC0D8410270F6BFE00B512AF /* gauge_fill_90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_90.png; sourceTree = "<group>"; };
+		AC0D8411270F6BFE00B512AF /* gauge_fill_85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_85.png; sourceTree = "<group>"; };
+		AC0D8412270F6BFE00B512AF /* gauge_fill_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_50.png; sourceTree = "<group>"; };
+		AC0D8413270F6BFE00B512AF /* gauge_fill_45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_45.png; sourceTree = "<group>"; };
+		AC0D8414270F6BFE00B512AF /* gauge_fill_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_60.png; sourceTree = "<group>"; };
+		AC0D8415270F6BFE00B512AF /* gauge_fill_75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_75.png; sourceTree = "<group>"; };
+		AC0D8416270F6BFE00B512AF /* gauge_fill_65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_65.png; sourceTree = "<group>"; };
+		AC0D8417270F6BFE00B512AF /* gauge_fill_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_70.png; sourceTree = "<group>"; };
+		AC0D8418270F6BFE00B512AF /* gauge_open_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_23.png; sourceTree = "<group>"; };
+		AC0D8419270F6BFE00B512AF /* gauge_open_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_22.png; sourceTree = "<group>"; };
+		AC0D841A270F6BFE00B512AF /* gauge_fill_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_00.png; sourceTree = "<group>"; };
+		AC0D841B270F6BFE00B512AF /* gauge_open_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_20.png; sourceTree = "<group>"; };
+		AC0D841C270F6BFE00B512AF /* gauge_open_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_08.png; sourceTree = "<group>"; };
+		AC0D841D270F6BFE00B512AF /* gauge_open_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_09.png; sourceTree = "<group>"; };
+		AC0D841E270F6BFE00B512AF /* gauge_open_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_21.png; sourceTree = "<group>"; };
+		AC0D841F270F6BFE00B512AF /* gauge_fill_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_15.png; sourceTree = "<group>"; };
+		AC0D8420270F6BFE00B512AF /* gauge_fill_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_05.png; sourceTree = "<group>"; };
+		AC0D8421270F6BFE00B512AF /* gauge_open_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_19.png; sourceTree = "<group>"; };
+		AC0D8422270F6BFE00B512AF /* gauge_open_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_open_18.png; sourceTree = "<group>"; };
+		AC0D8423270F6BFE00B512AF /* gauge_fill_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge_fill_10.png; sourceTree = "<group>"; };
+		AC0D8424270F6BFE00B512AF /* error_hold_steady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_hold_steady.png; sourceTree = "<group>"; };
+		AC0D8425270F6BFE00B512AF /* mitek_vignette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mitek_vignette.png; sourceTree = "<group>"; };
+		AC0D8426270F6BFE00B512AF /* misnap_doc_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_doc_center.png; sourceTree = "<group>"; };
+		AC0D8427270F6BFE00B512AF /* icon_flash_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_flash_on.png; sourceTree = "<group>"; };
+		AC0D8428270F6BFE00B512AF /* button_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_help.png; sourceTree = "<group>"; };
+		AC0D8429270F6BFE00B512AF /* MiSnapSDKOverlayViewUX1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapSDKOverlayViewUX1.m; sourceTree = "<group>"; };
+		AC0D842A270F6BFE00B512AF /* MiSnapSDKViewControllerUX1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapSDKViewControllerUX1.h; sourceTree = "<group>"; };
+		AC0D842B270F6BFE00B512AF /* MiSnapSDKOverlayViewUX1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapSDKOverlayViewUX1.h; sourceTree = "<group>"; };
+		AC0D842C270F6BFE00B512AF /* MiSnapSDKViewControllerUX1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapSDKViewControllerUX1.m; sourceTree = "<group>"; };
+		AC0D842E270F6BFE00B512AF /* MiSnapSDKOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapSDKOverlayView.h; sourceTree = "<group>"; };
+		AC0D842F270F6BFE00B512AF /* MiSnapSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapSDKViewController.m; sourceTree = "<group>"; };
+		AC0D8430270F6BFE00B512AF /* MiSnapSDKTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapSDKTutorialViewController.h; sourceTree = "<group>"; };
+		AC0D8431270F6BFE00B512AF /* MiSnapSDKOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapSDKOverlayView.m; sourceTree = "<group>"; };
+		AC0D8432270F6BFE00B512AF /* MiSnapSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapSDKViewController.h; sourceTree = "<group>"; };
+		AC0D8433270F6BFE00B512AF /* MiSnapSDKTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapSDKTutorialViewController.m; sourceTree = "<group>"; };
+		AC0D8434270F6BFE00B512AF /* MiSnapSDKScience.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiSnapSDKScience.xcframework; sourceTree = "<group>"; };
+		AC0D8435270F6BFE00B512AF /* MiSnapSDKCamera.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiSnapSDKCamera.xcframework; sourceTree = "<group>"; };
+		AC0D8444270F6C1D00B512AF /* MiSnapBarcodeScannerTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapBarcodeScannerTutorialViewController.h; sourceTree = "<group>"; };
+		AC0D8445270F6C1D00B512AF /* MiSnapBarcodeScannerOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapBarcodeScannerOverlayView.h; sourceTree = "<group>"; };
+		AC0D8447270F6C1D00B512AF /* MiSnapBarcodeScanner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MiSnapBarcodeScanner.storyboard; sourceTree = "<group>"; };
+		AC0D8449270F6C1D00B512AF /* barcode_tutorial_id_back_with_background_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode_tutorial_id_back_with_background_portrait_2.jpg; sourceTree = "<group>"; };
+		AC0D844A270F6C1D00B512AF /* barcode_tutorial_id_back_with_background_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode_tutorial_id_back_with_background_portrait.jpg; sourceTree = "<group>"; };
+		AC0D844C270F6C1D00B512AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MiSnapBarcodeScannerLocalizable.strings; sourceTree = "<group>"; };
+		AC0D844D270F6C1D00B512AF /* barcode_tutorial_id_back_with_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode_tutorial_id_back_with_background.jpg; sourceTree = "<group>"; };
+		AC0D844E270F6C1D00B512AF /* barcode_icon_flash_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_icon_flash_off.png; sourceTree = "<group>"; };
+		AC0D844F270F6C1D00B512AF /* barcode_photoshutter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = barcode_photoshutter.wav; sourceTree = "<group>"; };
+		AC0D8450270F6C1D00B512AF /* barcode_icon_flash_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_icon_flash_on.png; sourceTree = "<group>"; };
+		AC0D8451270F6C1D00B512AF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MiSnapBarcodeScannerLocalizable.strings; sourceTree = "<group>"; };
+		AC0D8452270F6C1D00B512AF /* barcode_powered_by_mitek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_powered_by_mitek.png; sourceTree = "<group>"; };
+		AC0D8453270F6C1D00B512AF /* barcode_camera_cancel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_camera_cancel_icon.png; sourceTree = "<group>"; };
+		AC0D8454270F6C1D00B512AF /* barcode_checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_checkbox_checked.png; sourceTree = "<group>"; };
+		AC0D8455270F6C1D00B512AF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MiSnapBarcodeScannerLocalizable.strings; sourceTree = "<group>"; };
+		AC0D8456270F6C1D00B512AF /* barcode_checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_checkbox_unchecked.png; sourceTree = "<group>"; };
+		AC0D8457270F6C1D00B512AF /* MiSnapBarcodeScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapBarcodeScannerViewController.h; sourceTree = "<group>"; };
+		AC0D8459270F6C1D00B512AF /* MiSnapBarcodeScanner+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MiSnapBarcodeScanner+NSString.h"; sourceTree = "<group>"; };
+		AC0D845A270F6C1D00B512AF /* MiSnapBarcodeScanner+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MiSnapBarcodeScanner+NSString.m"; sourceTree = "<group>"; };
+		AC0D845B270F6C1D00B512AF /* MiSnapBarcodeScannerTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapBarcodeScannerTutorialViewController.m; sourceTree = "<group>"; };
+		AC0D845C270F6C1D00B512AF /* MiSnapBarcodeScannerOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapBarcodeScannerOverlayView.m; sourceTree = "<group>"; };
+		AC0D845D270F6C1D00B512AF /* MiSnapBarcodeScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapBarcodeScannerViewController.m; sourceTree = "<group>"; };
+		AC0D845E270F6C1D00B512AF /* MiSnapBarcodeScanner.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiSnapBarcodeScanner.xcframework; sourceTree = "<group>"; };
+		AC0D8466270F6C2E00B512AF /* MiSnapBarcodeScannerLightCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapBarcodeScannerLightCamera.h; sourceTree = "<group>"; };
+		AC0D8468270F6C2E00B512AF /* MiSnapBarcodeScannerLight.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MiSnapBarcodeScannerLight.storyboard; sourceTree = "<group>"; };
+		AC0D846B270F6C2E00B512AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MiSnapBarcodeScannerLightLocalizable.strings; sourceTree = "<group>"; };
+		AC0D846C270F6C2E00B512AF /* barcode_light_icon_flash_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_light_icon_flash_off.png; sourceTree = "<group>"; };
+		AC0D846D270F6C2E00B512AF /* barcode_light_icon_flash_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_light_icon_flash_on.png; sourceTree = "<group>"; };
+		AC0D846E270F6C2E00B512AF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MiSnapBarcodeScannerLightLocalizable.strings; sourceTree = "<group>"; };
+		AC0D846F270F6C2E00B512AF /* barcode_light_powered_by_mitek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_light_powered_by_mitek.png; sourceTree = "<group>"; };
+		AC0D8470270F6C2E00B512AF /* barcode_light_tutorial_id_back_with_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode_light_tutorial_id_back_with_background.jpg; sourceTree = "<group>"; };
+		AC0D8471270F6C2E00B512AF /* barcode_light_photoshutter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = barcode_light_photoshutter.wav; sourceTree = "<group>"; };
+		AC0D8472270F6C2E00B512AF /* barcode_light_checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_light_checkbox_unchecked.png; sourceTree = "<group>"; };
+		AC0D8473270F6C2E00B512AF /* barcode_light_tutorial_id_back_with_background_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode_light_tutorial_id_back_with_background_portrait_2.jpg; sourceTree = "<group>"; };
+		AC0D8474270F6C2E00B512AF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MiSnapBarcodeScannerLightLocalizable.strings; sourceTree = "<group>"; };
+		AC0D8475270F6C2E00B512AF /* barcode_light_checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_light_checkbox_checked.png; sourceTree = "<group>"; };
+		AC0D8476270F6C2E00B512AF /* barcode_light_camera_cancel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_light_camera_cancel_icon.png; sourceTree = "<group>"; };
+		AC0D8477270F6C2E00B512AF /* barcode_light_tutorial_id_back_with_background_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode_light_tutorial_id_back_with_background_portrait.jpg; sourceTree = "<group>"; };
+		AC0D8478270F6C2E00B512AF /* MiSnapBarcodeScannerLightTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapBarcodeScannerLightTutorialViewController.h; sourceTree = "<group>"; };
+		AC0D8479270F6C2E00B512AF /* MiSnapBarcodeScannerLightOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapBarcodeScannerLightOverlayView.m; sourceTree = "<group>"; };
+		AC0D847A270F6C2E00B512AF /* MiSnapBarcodeScannerLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapBarcodeScannerLightViewController.h; sourceTree = "<group>"; };
+		AC0D847C270F6C2E00B512AF /* MiSnapBarcodeScannerLight+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MiSnapBarcodeScannerLight+NSString.m"; sourceTree = "<group>"; };
+		AC0D847D270F6C2E00B512AF /* MiSnapBarcodeScannerLight+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MiSnapBarcodeScannerLight+NSString.h"; sourceTree = "<group>"; };
+		AC0D847E270F6C2E00B512AF /* MiSnapBarcodeScannerLightCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapBarcodeScannerLightCamera.m; sourceTree = "<group>"; };
+		AC0D847F270F6C2E00B512AF /* MiSnapBarcodeScannerLightTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapBarcodeScannerLightTutorialViewController.m; sourceTree = "<group>"; };
+		AC0D8480270F6C2E00B512AF /* MiSnapBarcodeScannerLightOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiSnapBarcodeScannerLightOverlayView.h; sourceTree = "<group>"; };
+		AC0D8481270F6C2E00B512AF /* MiSnapBarcodeScannerLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiSnapBarcodeScannerLightViewController.m; sourceTree = "<group>"; };
+		AC0D8482270F6C2E00B512AF /* MiSnapBarcodeScannerLight.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiSnapBarcodeScannerLight.xcframework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* Mitek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mitek.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* Mitek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mitek.m; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +300,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0D8436270F6BFE00B512AF /* MiSnapSDK.xcframework in Frameworks */,
+				AC0D8437270F6BFE00B512AF /* MobileFlow.xcframework in Frameworks */,
+				AC0D8441270F6BFE00B512AF /* MiSnapSDKCamera.xcframework in Frameworks */,
+				AC0D8438270F6BFE00B512AF /* MiSnapSDKMibiData.xcframework in Frameworks */,
+				AC0D8463270F6C1D00B512AF /* MiSnapBarcodeScanner.xcframework in Frameworks */,
+				AC0D8488270F6C2E00B512AF /* MiSnapBarcodeScannerLight.xcframework in Frameworks */,
+				AC0D8440270F6BFE00B512AF /* MiSnapSDKScience.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +324,431 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
+				AC0D8464270F6C2E00B512AF /* MiSnapBarcodeScannerLight */,
+				AC0D8442270F6C1D00B512AF /* MiSnapBarcodeScanner */,
+				AC0D8362270F6BFC00B512AF /* MiSnapSDK */,
 				B3E7B5881CC2AC0600A0062D /* Mitek.h */,
 				B3E7B5891CC2AC0600A0062D /* Mitek.m */,
-
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		AC0D8362270F6BFC00B512AF /* MiSnapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8363270F6BFC00B512AF /* MiSnapSDK.xcframework */,
+				AC0D8364270F6BFC00B512AF /* MobileFlow.xcframework */,
+				AC0D8365270F6BFC00B512AF /* MiSnapSDKMibiData.xcframework */,
+				AC0D8366270F6BFC00B512AF /* MiSnapUX */,
+				AC0D8434270F6BFE00B512AF /* MiSnapSDKScience.xcframework */,
+				AC0D8435270F6BFE00B512AF /* MiSnapSDKCamera.xcframework */,
+			);
+			path = MiSnapSDK;
+			sourceTree = "<group>";
+		};
+		AC0D8366270F6BFC00B512AF /* MiSnapUX */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8367270F6BFC00B512AF /* UX_Resources */,
+				AC0D838D270F6BFD00B512AF /* UX2_Files */,
+				AC0D83BD270F6BFD00B512AF /* UX1_Files */,
+				AC0D842D270F6BFE00B512AF /* UX_Files */,
+			);
+			path = MiSnapUX;
+			sourceTree = "<group>";
+		};
+		AC0D8367270F6BFC00B512AF /* UX_Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8368270F6BFC00B512AF /* misnap_powered_by_mitek.png */,
+				AC0D836A270F6BFC00B512AF /* MiSnapSDKLocalizable.strings */,
+				AC0D836C270F6BFC00B512AF /* misnap_tutorial_id_with_background_portrait_2.jpg */,
+				AC0D836D270F6BFC00B512AF /* misnap_tutorial_id_back_with_background_portrait_2.jpg */,
+				AC0D8370270F6BFC00B512AF /* ghost_doc.png */,
+				AC0D8371270F6BFC00B512AF /* checkbox_unchecked.png */,
+				AC0D8372270F6BFC00B512AF /* misnap_tutorial_id_with_background.jpg */,
+				AC0D8373270F6BFC00B512AF /* ghost_check_back_portrait.png */,
+				AC0D8374270F6BFC00B512AF /* ghost_balance_remittance.png */,
+				AC0D8375270F6BFC00B512AF /* ghost_check_front.png */,
+				AC0D8376270F6BFC00B512AF /* ghost_check_front_portrait.png */,
+				AC0D8377270F6BFC00B512AF /* misnap_tutorial_id_back_with_background.jpg */,
+				AC0D8378270F6BFC00B512AF /* misnap_tutorial_warning.png */,
+				AC0D8379270F6BFC00B512AF /* ghost_doc_portrait.png */,
+				AC0D837A270F6BFC00B512AF /* misnap_tutorial_passport_with_background_portrait_2.jpg */,
+				AC0D837B270F6BFC00B512AF /* ghost_id_card_portrait.png */,
+				AC0D837C270F6BFC00B512AF /* misnap_tutorial_id_back_with_background_portrait.jpg */,
+				AC0D837D270F6BFC00B512AF /* misnap_tutorial_passport_with_background_portrait.jpg */,
+				AC0D837E270F6BFC00B512AF /* misnap_tutorial_id_with_background_portrait.jpg */,
+				AC0D837F270F6BFC00B512AF /* ghost_passport_portrait.png */,
+				AC0D8380270F6BFC00B512AF /* ghost_check_back.png */,
+				AC0D8381270F6BFC00B512AF /* ghost_w2_portrait.png */,
+				AC0D8382270F6BFD00B512AF /* checkbox_checked.png */,
+				AC0D8383270F6BFD00B512AF /* ghost_balance_remittance_portrait.png */,
+				AC0D8384270F6BFD00B512AF /* ghost_id_card.png */,
+				AC0D8385270F6BFD00B512AF /* ghost_w2.png */,
+				AC0D8388270F6BFD00B512AF /* misnap_tutorial_red_arrow@3x.png */,
+				AC0D8389270F6BFD00B512AF /* misnap_tutorial_passport_with_background.jpg */,
+				AC0D838A270F6BFD00B512AF /* background-dots.png */,
+				AC0D838B270F6BFD00B512AF /* misnap_tutorial_red_arrow@2x.png */,
+				AC0D838C270F6BFD00B512AF /* ghost_passport.png */,
+			);
+			path = UX_Resources;
+			sourceTree = "<group>";
+		};
+		AC0D838D270F6BFD00B512AF /* UX2_Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D838E270F6BFD00B512AF /* MiSnapSDKOverlayViewUX2.m */,
+				AC0D838F270F6BFD00B512AF /* MiSnapSDKViewControllerUX2.h */,
+				AC0D8390270F6BFD00B512AF /* Storyboard */,
+				AC0D8392270F6BFD00B512AF /* Resources */,
+				AC0D83BB270F6BFD00B512AF /* MiSnapSDKOverlayViewUX2.h */,
+				AC0D83BC270F6BFD00B512AF /* MiSnapSDKViewControllerUX2.m */,
+			);
+			path = UX2_Files;
+			sourceTree = "<group>";
+		};
+		AC0D8390270F6BFD00B512AF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8391270F6BFD00B512AF /* MiSnapUX2.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AC0D8392270F6BFD00B512AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8393270F6BFD00B512AF /* misnap_en_button_flash_off.png */,
+				AC0D8394270F6BFD00B512AF /* misnap_en_button_back_to_auto.png */,
+				AC0D8395270F6BFD00B512AF /* misnap_en_button_flash_on.png */,
+				AC0D8396270F6BFD00B512AF /* misnap_en_button_capture.png */,
+				AC0D8397270F6BFD00B512AF /* misnap_en_powered_by_mitek_overlay.png */,
+				AC0D8398270F6BFD00B512AF /* misnap_en_corner_on.png */,
+				AC0D8399270F6BFD00B512AF /* wink */,
+				AC0D83B3270F6BFD00B512AF /* misnap_en_button_continue.png */,
+				AC0D83B4270F6BFD00B512AF /* misnap_en_corner_off.png */,
+				AC0D83B5270F6BFD00B512AF /* misnap_en_menu_top.png */,
+				AC0D83B6270F6BFD00B512AF /* misnap_en_button_flash_auto.png */,
+				AC0D83B7270F6BFD00B512AF /* misnap_en_menu_bottom.png */,
+				AC0D83B8270F6BFD00B512AF /* misnap_en_button_back.png */,
+				AC0D83B9270F6BFD00B512AF /* misnap_en_branding.png */,
+				AC0D83BA270F6BFD00B512AF /* misnap_en_button_help.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC0D8399270F6BFD00B512AF /* wink */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D839A270F6BFD00B512AF /* wink_17.png */,
+				AC0D839B270F6BFD00B512AF /* wink_16.png */,
+				AC0D839C270F6BFD00B512AF /* wink_28.png */,
+				AC0D839D270F6BFD00B512AF /* wink_14.png */,
+				AC0D839E270F6BFD00B512AF /* wink_15.png */,
+				AC0D839F270F6BFD00B512AF /* wink_29.png */,
+				AC0D83A0270F6BFD00B512AF /* wink_11.png */,
+				AC0D83A1270F6BFD00B512AF /* wink_10.png */,
+				AC0D83A2270F6BFD00B512AF /* wink_12.png */,
+				AC0D83A3270F6BFD00B512AF /* wink_13.png */,
+				AC0D83A4270F6BFD00B512AF /* wink_22.png */,
+				AC0D83A5270F6BFD00B512AF /* wink_23.png */,
+				AC0D83A6270F6BFD00B512AF /* wink_21.png */,
+				AC0D83A7270F6BFD00B512AF /* wink_34.png */,
+				AC0D83A8270F6BFD00B512AF /* wink_20.png */,
+				AC0D83A9270F6BFD00B512AF /* wink_24.png */,
+				AC0D83AA270F6BFD00B512AF /* wink_30.png */,
+				AC0D83AB270F6BFD00B512AF /* wink_18.png */,
+				AC0D83AC270F6BFD00B512AF /* wink_19.png */,
+				AC0D83AD270F6BFD00B512AF /* wink_31.png */,
+				AC0D83AE270F6BFD00B512AF /* wink_25.png */,
+				AC0D83AF270F6BFD00B512AF /* wink_33.png */,
+				AC0D83B0270F6BFD00B512AF /* wink_27.png */,
+				AC0D83B1270F6BFD00B512AF /* wink_26.png */,
+				AC0D83B2270F6BFD00B512AF /* wink_32.png */,
+			);
+			path = wink;
+			sourceTree = "<group>";
+		};
+		AC0D83BD270F6BFD00B512AF /* UX1_Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D83BE270F6BFD00B512AF /* Storyboard */,
+				AC0D83C0270F6BFD00B512AF /* Resources */,
+				AC0D8429270F6BFE00B512AF /* MiSnapSDKOverlayViewUX1.m */,
+				AC0D842A270F6BFE00B512AF /* MiSnapSDKViewControllerUX1.h */,
+				AC0D842B270F6BFE00B512AF /* MiSnapSDKOverlayViewUX1.h */,
+				AC0D842C270F6BFE00B512AF /* MiSnapSDKViewControllerUX1.m */,
+			);
+			path = UX1_Files;
+			sourceTree = "<group>";
+		};
+		AC0D83BE270F6BFD00B512AF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D83BF270F6BFD00B512AF /* MiSnapUX1.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AC0D83C0270F6BFD00B512AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D83C1270F6BFD00B512AF /* error_use_dark_background.png */,
+				AC0D83C2270F6BFD00B512AF /* error_more_light.png */,
+				AC0D83C3270F6BFD00B512AF /* error_getcloser.png */,
+				AC0D83C4270F6BFD00B512AF /* error_use_front_check.png */,
+				AC0D83C5270F6BFD00B512AF /* error_less_light.png */,
+				AC0D83C6270F6BFD00B512AF /* error_center.png */,
+				AC0D83C7270F6BFD00B512AF /* camera_cancel_icon.png */,
+				AC0D83C8270F6BFD00B512AF /* bug_animation */,
+				AC0D83F1270F6BFE00B512AF /* error_flip_check.png */,
+				AC0D83F2270F6BFE00B512AF /* error_reduce_glare.png */,
+				AC0D83F3270F6BFE00B512AF /* error_use_plain_background.png */,
+				AC0D83F4270F6BFE00B512AF /* error_tooclose.png */,
+				AC0D83F5270F6BFE00B512AF /* camera_shutter_icon.png */,
+				AC0D83F6270F6BFE00B512AF /* icon_flash_off.png */,
+				AC0D83F7270F6BFE00B512AF /* gauge */,
+				AC0D8424270F6BFE00B512AF /* error_hold_steady.png */,
+				AC0D8425270F6BFE00B512AF /* mitek_vignette.png */,
+				AC0D8426270F6BFE00B512AF /* misnap_doc_center.png */,
+				AC0D8427270F6BFE00B512AF /* icon_flash_on.png */,
+				AC0D8428270F6BFE00B512AF /* button_help.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC0D83C8270F6BFD00B512AF /* bug_animation */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D83C9270F6BFD00B512AF /* bug_animation_29.png */,
+				AC0D83CA270F6BFD00B512AF /* bug_animation_01.png */,
+				AC0D83CB270F6BFD00B512AF /* bug_animation_15.png */,
+				AC0D83CC270F6BFD00B512AF /* bug_animation_14.png */,
+				AC0D83CD270F6BFD00B512AF /* bug_animation_28.png */,
+				AC0D83CE270F6BFD00B512AF /* bug_animation_16.png */,
+				AC0D83CF270F6BFD00B512AF /* bug_animation_02.png */,
+				AC0D83D0270F6BFD00B512AF /* bug_animation_03.png */,
+				AC0D83D1270F6BFD00B512AF /* bug_animation_17.png */,
+				AC0D83D2270F6BFD00B512AF /* bug_animation_13.png */,
+				AC0D83D3270F6BFD00B512AF /* bug_animation_07.png */,
+				AC0D83D4270F6BFD00B512AF /* bug_animation_06.png */,
+				AC0D83D5270F6BFD00B512AF /* bug_animation_12.png */,
+				AC0D83D6270F6BFD00B512AF /* bug_animation_04.png */,
+				AC0D83D7270F6BFD00B512AF /* bug_animation_10.png */,
+				AC0D83D8270F6BFD00B512AF /* bug_animation_38.png */,
+				AC0D83D9270F6BFD00B512AF /* bug_animation_39.png */,
+				AC0D83DA270F6BFD00B512AF /* bug_animation_11.png */,
+				AC0D83DB270F6BFD00B512AF /* bug_animation_05.png */,
+				AC0D83DC270F6BFD00B512AF /* bug_animation_08.png */,
+				AC0D83DD270F6BFD00B512AF /* bug_animation_20.png */,
+				AC0D83DE270F6BFD00B512AF /* bug_animation_34.png */,
+				AC0D83DF270F6BFD00B512AF /* bug_animation_35.png */,
+				AC0D83E0270F6BFD00B512AF /* bug_animation_21.png */,
+				AC0D83E1270F6BFD00B512AF /* bug_animation_09.png */,
+				AC0D83E2270F6BFD00B512AF /* bug_animation_37.png */,
+				AC0D83E3270F6BFE00B512AF /* bug_animation_23.png */,
+				AC0D83E4270F6BFE00B512AF /* bug_animation_22.png */,
+				AC0D83E5270F6BFE00B512AF /* bug_animation_36.png */,
+				AC0D83E6270F6BFE00B512AF /* bug_animation_32.png */,
+				AC0D83E7270F6BFE00B512AF /* bug_animation_26.png */,
+				AC0D83E8270F6BFE00B512AF /* bug_animation_27.png */,
+				AC0D83E9270F6BFE00B512AF /* bug_animation_33.png */,
+				AC0D83EA270F6BFE00B512AF /* bug_animation_25.png */,
+				AC0D83EB270F6BFE00B512AF /* bug_animation_31.png */,
+				AC0D83EC270F6BFE00B512AF /* bug_animation_19.png */,
+				AC0D83ED270F6BFE00B512AF /* bug_animation_18.png */,
+				AC0D83EE270F6BFE00B512AF /* bug_animation_30.png */,
+				AC0D83EF270F6BFE00B512AF /* bug_animation_24.png */,
+				AC0D83F0270F6BFE00B512AF /* bug_animation_40.png */,
+			);
+			path = bug_animation;
+			sourceTree = "<group>";
+		};
+		AC0D83F7270F6BFE00B512AF /* gauge */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D83F8270F6BFE00B512AF /* gauge_open_16.png */,
+				AC0D83F9270F6BFE00B512AF /* gauge_open_02.png */,
+				AC0D83FA270F6BFE00B512AF /* gauge_open_03.png */,
+				AC0D83FB270F6BFE00B512AF /* gauge_open_17.png */,
+				AC0D83FC270F6BFE00B512AF /* gauge_fill_35.png */,
+				AC0D83FD270F6BFE00B512AF /* gauge_open_01.png */,
+				AC0D83FE270F6BFE00B512AF /* gauge_open_15.png */,
+				AC0D83FF270F6BFE00B512AF /* gauge_open_14.png */,
+				AC0D8400270F6BFE00B512AF /* gauge_fill_20.png */,
+				AC0D8401270F6BFE00B512AF /* gauge_fill_30.png */,
+				AC0D8402270F6BFE00B512AF /* gauge_open_04.png */,
+				AC0D8403270F6BFE00B512AF /* gauge_open_10.png */,
+				AC0D8404270F6BFE00B512AF /* gauge_open_11.png */,
+				AC0D8405270F6BFE00B512AF /* gauge_open_05.png */,
+				AC0D8406270F6BFE00B512AF /* gauge_fill_25.png */,
+				AC0D8407270F6BFE00B512AF /* gauge_fill_100.png */,
+				AC0D8408270F6BFE00B512AF /* gauge_open_13.png */,
+				AC0D8409270F6BFE00B512AF /* gauge_open_07.png */,
+				AC0D840A270F6BFE00B512AF /* gauge_open_06.png */,
+				AC0D840B270F6BFE00B512AF /* gauge_open_12.png */,
+				AC0D840C270F6BFE00B512AF /* gauge_fill_55.png */,
+				AC0D840D270F6BFE00B512AF /* gauge_fill_40.png */,
+				AC0D840E270F6BFE00B512AF /* gauge_fill_95.png */,
+				AC0D840F270F6BFE00B512AF /* gauge_fill_80.png */,
+				AC0D8410270F6BFE00B512AF /* gauge_fill_90.png */,
+				AC0D8411270F6BFE00B512AF /* gauge_fill_85.png */,
+				AC0D8412270F6BFE00B512AF /* gauge_fill_50.png */,
+				AC0D8413270F6BFE00B512AF /* gauge_fill_45.png */,
+				AC0D8414270F6BFE00B512AF /* gauge_fill_60.png */,
+				AC0D8415270F6BFE00B512AF /* gauge_fill_75.png */,
+				AC0D8416270F6BFE00B512AF /* gauge_fill_65.png */,
+				AC0D8417270F6BFE00B512AF /* gauge_fill_70.png */,
+				AC0D8418270F6BFE00B512AF /* gauge_open_23.png */,
+				AC0D8419270F6BFE00B512AF /* gauge_open_22.png */,
+				AC0D841A270F6BFE00B512AF /* gauge_fill_00.png */,
+				AC0D841B270F6BFE00B512AF /* gauge_open_20.png */,
+				AC0D841C270F6BFE00B512AF /* gauge_open_08.png */,
+				AC0D841D270F6BFE00B512AF /* gauge_open_09.png */,
+				AC0D841E270F6BFE00B512AF /* gauge_open_21.png */,
+				AC0D841F270F6BFE00B512AF /* gauge_fill_15.png */,
+				AC0D8420270F6BFE00B512AF /* gauge_fill_05.png */,
+				AC0D8421270F6BFE00B512AF /* gauge_open_19.png */,
+				AC0D8422270F6BFE00B512AF /* gauge_open_18.png */,
+				AC0D8423270F6BFE00B512AF /* gauge_fill_10.png */,
+			);
+			path = gauge;
+			sourceTree = "<group>";
+		};
+		AC0D842D270F6BFE00B512AF /* UX_Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D842E270F6BFE00B512AF /* MiSnapSDKOverlayView.h */,
+				AC0D842F270F6BFE00B512AF /* MiSnapSDKViewController.m */,
+				AC0D8430270F6BFE00B512AF /* MiSnapSDKTutorialViewController.h */,
+				AC0D8431270F6BFE00B512AF /* MiSnapSDKOverlayView.m */,
+				AC0D8432270F6BFE00B512AF /* MiSnapSDKViewController.h */,
+				AC0D8433270F6BFE00B512AF /* MiSnapSDKTutorialViewController.m */,
+			);
+			path = UX_Files;
+			sourceTree = "<group>";
+		};
+		AC0D8442270F6C1D00B512AF /* MiSnapBarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8443270F6C1D00B512AF /* MiSnapBarcodeScannerUX */,
+				AC0D845E270F6C1D00B512AF /* MiSnapBarcodeScanner.xcframework */,
+			);
+			path = MiSnapBarcodeScanner;
+			sourceTree = "<group>";
+		};
+		AC0D8443270F6C1D00B512AF /* MiSnapBarcodeScannerUX */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8444270F6C1D00B512AF /* MiSnapBarcodeScannerTutorialViewController.h */,
+				AC0D8445270F6C1D00B512AF /* MiSnapBarcodeScannerOverlayView.h */,
+				AC0D8446270F6C1D00B512AF /* Storyboard */,
+				AC0D8448270F6C1D00B512AF /* Resources */,
+				AC0D8457270F6C1D00B512AF /* MiSnapBarcodeScannerViewController.h */,
+				AC0D8458270F6C1D00B512AF /* Utils */,
+				AC0D845B270F6C1D00B512AF /* MiSnapBarcodeScannerTutorialViewController.m */,
+				AC0D845C270F6C1D00B512AF /* MiSnapBarcodeScannerOverlayView.m */,
+				AC0D845D270F6C1D00B512AF /* MiSnapBarcodeScannerViewController.m */,
+			);
+			path = MiSnapBarcodeScannerUX;
+			sourceTree = "<group>";
+		};
+		AC0D8446270F6C1D00B512AF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8447270F6C1D00B512AF /* MiSnapBarcodeScanner.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AC0D8448270F6C1D00B512AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8449270F6C1D00B512AF /* barcode_tutorial_id_back_with_background_portrait_2.jpg */,
+				AC0D844A270F6C1D00B512AF /* barcode_tutorial_id_back_with_background_portrait.jpg */,
+				AC0D844B270F6C1D00B512AF /* MiSnapBarcodeScannerLocalizable.strings */,
+				AC0D844D270F6C1D00B512AF /* barcode_tutorial_id_back_with_background.jpg */,
+				AC0D844E270F6C1D00B512AF /* barcode_icon_flash_off.png */,
+				AC0D844F270F6C1D00B512AF /* barcode_photoshutter.wav */,
+				AC0D8450270F6C1D00B512AF /* barcode_icon_flash_on.png */,
+				AC0D8452270F6C1D00B512AF /* barcode_powered_by_mitek.png */,
+				AC0D8453270F6C1D00B512AF /* barcode_camera_cancel_icon.png */,
+				AC0D8454270F6C1D00B512AF /* barcode_checkbox_checked.png */,
+				AC0D8456270F6C1D00B512AF /* barcode_checkbox_unchecked.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC0D8458270F6C1D00B512AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8459270F6C1D00B512AF /* MiSnapBarcodeScanner+NSString.h */,
+				AC0D845A270F6C1D00B512AF /* MiSnapBarcodeScanner+NSString.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AC0D8464270F6C2E00B512AF /* MiSnapBarcodeScannerLight */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8465270F6C2E00B512AF /* MiSnapBarcodeScannerLightUX */,
+				AC0D8482270F6C2E00B512AF /* MiSnapBarcodeScannerLight.xcframework */,
+			);
+			path = MiSnapBarcodeScannerLight;
+			sourceTree = "<group>";
+		};
+		AC0D8465270F6C2E00B512AF /* MiSnapBarcodeScannerLightUX */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8466270F6C2E00B512AF /* MiSnapBarcodeScannerLightCamera.h */,
+				AC0D8467270F6C2E00B512AF /* Storyboard */,
+				AC0D8469270F6C2E00B512AF /* Resources */,
+				AC0D8478270F6C2E00B512AF /* MiSnapBarcodeScannerLightTutorialViewController.h */,
+				AC0D8479270F6C2E00B512AF /* MiSnapBarcodeScannerLightOverlayView.m */,
+				AC0D847A270F6C2E00B512AF /* MiSnapBarcodeScannerLightViewController.h */,
+				AC0D847B270F6C2E00B512AF /* Utils */,
+				AC0D847E270F6C2E00B512AF /* MiSnapBarcodeScannerLightCamera.m */,
+				AC0D847F270F6C2E00B512AF /* MiSnapBarcodeScannerLightTutorialViewController.m */,
+				AC0D8480270F6C2E00B512AF /* MiSnapBarcodeScannerLightOverlayView.h */,
+				AC0D8481270F6C2E00B512AF /* MiSnapBarcodeScannerLightViewController.m */,
+			);
+			path = MiSnapBarcodeScannerLightUX;
+			sourceTree = "<group>";
+		};
+		AC0D8467270F6C2E00B512AF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D8468270F6C2E00B512AF /* MiSnapBarcodeScannerLight.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AC0D8469270F6C2E00B512AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D846A270F6C2E00B512AF /* MiSnapBarcodeScannerLightLocalizable.strings */,
+				AC0D846C270F6C2E00B512AF /* barcode_light_icon_flash_off.png */,
+				AC0D846D270F6C2E00B512AF /* barcode_light_icon_flash_on.png */,
+				AC0D846F270F6C2E00B512AF /* barcode_light_powered_by_mitek.png */,
+				AC0D8470270F6C2E00B512AF /* barcode_light_tutorial_id_back_with_background.jpg */,
+				AC0D8471270F6C2E00B512AF /* barcode_light_photoshutter.wav */,
+				AC0D8472270F6C2E00B512AF /* barcode_light_checkbox_unchecked.png */,
+				AC0D8473270F6C2E00B512AF /* barcode_light_tutorial_id_back_with_background_portrait_2.jpg */,
+				AC0D8475270F6C2E00B512AF /* barcode_light_checkbox_checked.png */,
+				AC0D8476270F6C2E00B512AF /* barcode_light_camera_cancel_icon.png */,
+				AC0D8477270F6C2E00B512AF /* barcode_light_tutorial_id_back_with_background_portrait.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC0D847B270F6C2E00B512AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC0D847C270F6C2E00B512AF /* MiSnapBarcodeScannerLight+NSString.m */,
+				AC0D847D270F6C2E00B512AF /* MiSnapBarcodeScannerLight+NSString.h */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +792,8 @@
 			knownRegions = (
 				English,
 				en,
+				es,
+				fr,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
@@ -119,13 +810,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-				B3E7B58A1CC2AC0600A0062D /* Mitek.m in Sources */,
-
+				AC0D8439270F6BFE00B512AF /* MiSnapSDKOverlayViewUX2.m in Sources */,
+				AC0D8485270F6C2E00B512AF /* MiSnapBarcodeScannerLightCamera.m in Sources */,
+				AC0D843D270F6BFE00B512AF /* MiSnapSDKViewController.m in Sources */,
+				AC0D843B270F6BFE00B512AF /* MiSnapSDKOverlayViewUX1.m in Sources */,
+				AC0D843F270F6BFE00B512AF /* MiSnapSDKTutorialViewController.m in Sources */,
+				AC0D843C270F6BFE00B512AF /* MiSnapSDKViewControllerUX1.m in Sources */,
+				AC0D8462270F6C1D00B512AF /* MiSnapBarcodeScannerViewController.m in Sources */,
+				AC0D843E270F6BFE00B512AF /* MiSnapSDKOverlayView.m in Sources */,
+				AC0D8460270F6C1D00B512AF /* MiSnapBarcodeScannerTutorialViewController.m in Sources */,
+				AC0D8484270F6C2E00B512AF /* MiSnapBarcodeScannerLight+NSString.m in Sources */,
+				AC0D8483270F6C2E00B512AF /* MiSnapBarcodeScannerLightOverlayView.m in Sources */,
+				AC0D8486270F6C2E00B512AF /* MiSnapBarcodeScannerLightTutorialViewController.m in Sources */,
+				AC0D8461270F6C1D00B512AF /* MiSnapBarcodeScannerOverlayView.m in Sources */,
+				AC0D8487270F6C2E00B512AF /* MiSnapBarcodeScannerLightViewController.m in Sources */,
+				AC0D843A270F6BFE00B512AF /* MiSnapSDKViewControllerUX2.m in Sources */,
+				AC0D845F270F6C1D00B512AF /* MiSnapBarcodeScanner+NSString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC0D8368270F6BFC00B512AF /* misnap_powered_by_mitek.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0D8369270F6BFC00B512AF /* en */,
+				AC0D836E270F6BFC00B512AF /* es */,
+				AC0D8386270F6BFD00B512AF /* fr */,
+			);
+			name = misnap_powered_by_mitek.png;
+			sourceTree = "<group>";
+		};
+		AC0D836A270F6BFC00B512AF /* MiSnapSDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0D836B270F6BFC00B512AF /* en */,
+				AC0D836F270F6BFC00B512AF /* es */,
+				AC0D8387270F6BFD00B512AF /* fr */,
+			);
+			name = MiSnapSDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		AC0D844B270F6C1D00B512AF /* MiSnapBarcodeScannerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0D844C270F6C1D00B512AF /* en */,
+				AC0D8451270F6C1D00B512AF /* es */,
+				AC0D8455270F6C1D00B512AF /* fr */,
+			);
+			name = MiSnapBarcodeScannerLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		AC0D846A270F6C2E00B512AF /* MiSnapBarcodeScannerLightLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0D846B270F6C2E00B512AF /* en */,
+				AC0D846E270F6C2E00B512AF /* es */,
+				AC0D8474270F6C2E00B512AF /* fr */,
+			);
+			name = MiSnapBarcodeScannerLightLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		58B511ED1A9E6C8500147676 /* Debug */ = {
@@ -234,7 +981,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Mitek;
 				SKIP_INSTALL = YES;
-
 			};
 			name = Debug;
 		};
@@ -251,7 +997,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Mitek;
 				SKIP_INSTALL = YES;
-
 			};
 			name = Release;
 		};
