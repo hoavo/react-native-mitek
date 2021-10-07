@@ -1,4 +1,4 @@
-package com.rn_misnap;
+package com.reactnativemitek;
 
 import android.content.Context;
 import android.content.SharedPreferences;
