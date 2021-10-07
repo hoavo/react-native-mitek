@@ -34,6 +34,7 @@ import java.util.Map;
 
 import static android.app.Activity.RESULT_CANCELED;
 import static android.app.Activity.RESULT_OK;
+import android.util.Log;
 
 @ReactModule(name = MitekModule.NAME)
 public class MitekModule extends ReactContextBaseJavaModule {
@@ -133,6 +134,7 @@ public class MitekModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void setDocumentType(final String docType) {
+        Log.d("CalendarModule", "Create event called with name: " + " and location: " );
         this.selectedJobType = docType;
     }
 

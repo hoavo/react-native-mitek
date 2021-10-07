@@ -10,9 +10,9 @@ import {
 
 export default function App() {
   const snapDriverLicenseFront = async () => {
-    setDocumentType('DRIVER_LICENSE');
-    setServerTypeAndVersion('test', '0.0');
     try {
+      setDocumentType('DRIVER_LICENSE');
+      setServerTypeAndVersion('test', '0.0');
       let snapResults = await doSnap();
       console.log(snapResults);
     } catch (e) {
@@ -21,9 +21,9 @@ export default function App() {
   };
 
   const snapDriverLicenseBack = async () => {
-    setDocumentType('PDF417');
-    setServerTypeAndVersion('test', '0.0');
     try {
+      setDocumentType('PDF417');
+      setServerTypeAndVersion('test', '0.0');
       let snapResults = await doSnap();
       console.log(snapResults);
     } catch (e) {
