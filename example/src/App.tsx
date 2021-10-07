@@ -1,18 +1,41 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-mitek';
+import { TouchableOpacity, StyleSheet, View, Text } from 'react-native';
+import { startMiSnapWorkflow } from 'react-native-mitek';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const snapDriverLicenseFront = async () => {
+    try {
+      let snapResults = await startMiSnapWorkflow('DRIVER_LICENSE');
+      console.log(snapResults);
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
+  const snapDriverLicenseBack = async () => {
+    try {
+      let snapResults = await startMiSnapWorkflow('PDF417');
+      console.log(snapResults);
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => snapDriverLicenseFront()}
+      >
+        <Text style={styles.text}>Driver's License Front</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => snapDriverLicenseBack()}
+      >
+        <Text style={styles.text}>Driver's License Back</Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -20,12 +43,21 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
   },
-  box: {
-    width: 60,
+  button: {
+    alignItems: 'center',
+    width: '75%',
     height: 60,
-    marginVertical: 20,
+    backgroundColor: '#0F2B29',
+    borderRadius: 30,
+    paddingVertical: 15,
+    paddingHorizontal: 36,
+    marginVertical: 5,
+  },
+  text: {
+    fontSize: 20,
+    color: '#3FD899',
   },
 });

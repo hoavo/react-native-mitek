@@ -17,6 +17,8 @@ const Mitek = NativeModules.Mitek
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Mitek.multiply(a, b);
+
+export function startMiSnapWorkflow(type: string): Promise<number> {
+  return Mitek.doMiSnapWorkflow(type);
 }
+
