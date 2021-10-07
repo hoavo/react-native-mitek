@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,mm}"
   s.vendored_frameworks = 'ios/MiSnapSDK/MiSnapSDK.xcframework', 'ios/MiSnapBarcodeScanner/MiSnapBarcodeScanner.xcframework', 'ios/MiSnapLivenessSDK/MiSnapLiveness.xcframework', 'ios/MiSnapSDK/MiSnapSDKScience.xcframework', 'ios/MiSnapSDK/MobileFlow.xcframework', 'ios/MiSnapSDK/MiSnapSDKMibiData.xcframework', 'ios/MiSnapSDK/MiSnapSDKCamera.xcframework', 'ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLight.xcframework'
+  s.resources = "ios/MiSnapSDK/MiSnapUX/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,lproj}"
   s.dependency "React-Core"
 end
