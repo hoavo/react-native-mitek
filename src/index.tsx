@@ -17,6 +17,17 @@ const Mitek = NativeModules.Mitek
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Mitek.multiply(a, b);
+export function setDocumentType(type: string) {
+  Mitek.setDocumentType(type);
+}
+export function setServerTypeAndVersion(type: string, value: string) {
+  Mitek.setServerTypeAndVersion(type, value);
+}
+
+export function doCaptureFace(): Promise<number> {
+  return Mitek.doCaptureFace();
+}
+
+export function doSnap(): Promise<number> {
+  return Mitek.doSnap();
 }
