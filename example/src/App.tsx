@@ -1,13 +1,18 @@
 import * as React from 'react';
 
 import { TouchableOpacity, StyleSheet, View, Text } from 'react-native';
-import { startMiSnapWorkflow, MISNAPTYPE } from 'mitek-misnap-rn-bridge';
+import {
+  startMiSnapWorkflow,
+  MISNAPTYPE,
+  setServerTypeAndVersion,
+} from 'mitek-misnap-rn-bridge';
 import Result from './Results';
 
 export default function App() {
   const [result, setResult] = React.useState(null);
   const snapDriverLicense = async () => {
     try {
+      setServerTypeAndVersion('test', '0.0');
       const snapResults = await startMiSnapWorkflow(MISNAPTYPE.DRIVER_LICENSE);
       setResult(snapResults as any);
     } catch (e) {
@@ -17,6 +22,7 @@ export default function App() {
 
   const snapPassort = async () => {
     try {
+      setServerTypeAndVersion('test', '0.0');
       const snapResults = await startMiSnapWorkflow(MISNAPTYPE.PASSPORT);
       setResult(snapResults as any);
     } catch (e) {
@@ -38,10 +44,7 @@ export default function App() {
       >
         <Text style={styles.text}>Driver's License</Text>
       </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => snapPassort()}
-      >
+      <TouchableOpacity style={styles.button} onPress={() => snapPassort()}>
         <Text style={styles.text}>Passport</Text>
       </TouchableOpacity>
     </View>

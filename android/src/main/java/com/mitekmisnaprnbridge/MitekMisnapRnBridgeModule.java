@@ -122,7 +122,11 @@ public class MitekMisnapRnBridgeModule extends ReactContextBaseJavaModule {
         return NAME;
     }
 
-
+    @ReactMethod
+    public void setServerTypeAndVersion(final String serverType,
+                       final String serverVersion) {
+    }
+    
     @ReactMethod
     public void doMiSnapWorkflow(final String docType, final Promise promise) {
         this.promise = promise;

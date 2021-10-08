@@ -18,17 +18,24 @@ const MitekMisnapRnBridge = NativeModules.MitekMisnapRnBridge
     );
 
 export enum MISNAPTYPE {
-  CHECK_FRONT = "CheckFront",
-  CHECK_BACK = "CheckBack",
-  DRIVER_LICENSE = "DRIVER_LICENSE",
-  ID_CARD_FRONT = "ID_CARD_FRONT",
-  ID_CARD_BACK = "ID_CARD_BACK",
-  BUSINESS_CARD = "BUSINESS_CARD",
-  AUTO_INSURANCE = "AUTO_INSURANCE",
-  PASSPORT = "PASSPORT",
-  CREDIT_CARD = "CREDIT_CARD",
-  PDF417 = "PDF417",
-  BARCODES = "BARCODES"
+  CHECK_FRONT = 'CheckFront',
+  CHECK_BACK = 'CheckBack',
+  DRIVER_LICENSE = 'DRIVER_LICENSE',
+  ID_CARD_FRONT = 'ID_CARD_FRONT',
+  ID_CARD_BACK = 'ID_CARD_BACK',
+  BUSINESS_CARD = 'BUSINESS_CARD',
+  AUTO_INSURANCE = 'AUTO_INSURANCE',
+  PASSPORT = 'PASSPORT',
+  CREDIT_CARD = 'CREDIT_CARD',
+  PDF417 = 'PDF417',
+  BARCODES = 'BARCODES',
+}
+
+export function setServerTypeAndVersion(
+  type: string,
+  version: string
+): Promise<number> {
+  return MitekMisnapRnBridge.setServerTypeAndVersion(type, version);
 }
 
 export function startMiSnapWorkflow(type: string): Promise<number> {
