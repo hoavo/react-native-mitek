@@ -1,18 +1,49 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'mitek-misnap-rn-bridge';
+import { TouchableOpacity, StyleSheet, View, Text } from 'react-native';
+import { startMiSnapWorkflow, MISNAPTYPE } from 'mitek-misnap-rn-bridge';
+import Result from './Results';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [result, setResult] = React.useState(null);
+  const snapDriverLicense = async () => {
+    try {
+      const snapResults = await startMiSnapWorkflow(MISNAPTYPE.DRIVER_LICENSE);
+      setResult(snapResults as any);
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
+  const snapPassort = async () => {
+    try {
+      const snapResults = await startMiSnapWorkflow(MISNAPTYPE.PASSPORT);
+      setResult(snapResults as any);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+  const onClose = () => {
+    setResult(null);
+  };
+  if (result) {
+    return <Result onClose={onClose} data={result} />;
+  }
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => snapDriverLicense()}
+      >
+        <Text style={styles.text}>Driver's License</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => snapPassort()}
+      >
+        <Text style={styles.text}>Passport</Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -20,12 +51,21 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
   },
-  box: {
-    width: 60,
+  button: {
+    alignItems: 'center',
+    width: '75%',
     height: 60,
-    marginVertical: 20,
+    backgroundColor: '#0F2B29',
+    borderRadius: 30,
+    paddingVertical: 15,
+    paddingHorizontal: 36,
+    marginVertical: 5,
+  },
+  text: {
+    fontSize: 20,
+    color: '#3FD899',
   },
 });
