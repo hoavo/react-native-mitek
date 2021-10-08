@@ -28,16 +28,10 @@ android {
         targetSdkVersion safeExtGet('Mitek_targetSdkVersion', 29)
         versionCode 1
         versionName "1.0"
-        multiDexEnabled true
 
     }
 
     buildTypes {
-         debug {
-            debuggable true
-            jniDebuggable true
-            multiDexEnabled true
-        }
         release {
             minifyEnabled false
         }
@@ -79,13 +73,12 @@ project.ext {
     commonsImagingVersion = '1.0-alpha2'
     eventbusVersion = '3.1.1'
     kotlinVersion = '1.4.21'
-    multidexVersion = '2.0.1'
 
 }
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinCoroutinesVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinSerializationVersion"
@@ -104,9 +97,5 @@ dependencies {
     // Eventbus dependency
     implementation "org.greenrobot:eventbus:$eventbusVersion"
     implementation "org.apache.commons:commons-imaging:$commonsImagingVersion"
-
-    implementation fileTree(include: ['*.aar'], dir: 'libs')
-
-    implementation "androidx.multidex:multidex:$multidexVersion"
     
 }

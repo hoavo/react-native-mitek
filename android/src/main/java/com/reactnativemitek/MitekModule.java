@@ -61,11 +61,10 @@ public class MitekModule extends ReactContextBaseJavaModule {
                     }
                 } else if (RESULT_CANCELED == resultCode) {
                     if (data != null) {
-                        Bundle extras = data.getExtras();
-                        String miSnapResultCode = extras.getString(MiSnapApi.RESULT_CODE);
-                        if (!miSnapResultCode.isEmpty()) {
-                            promise.reject(new Throwable("Shutdown reason: " + miSnapResultCode));
-                        }
+                        FacialCaptureResult.Failure failureResult = data.getParcelableExtra(FacialCaptureWorkflowApi.FACIAL_CAPTURE_RESULT);
+                        promise.reject(new Throwable("Shutdown reason: " + failureResult.getResultCode()));
+                    }else {
+                        promise.reject(new Throwable("Shutdown no reason"));
                     }
                 }
             }
@@ -88,6 +87,12 @@ public class MitekModule extends ReactContextBaseJavaModule {
         return NAME;
     }
 
+    @ReactMethod
+    public void startFacialCapture(final Promise promise) {
+        this.promise = promise;
+        startFacialCaptureWorkflow();
+    }
+    
     private void startFacialCaptureWorkflow() {
         // Prevent multiple MiSnap instances by preventing multiple button presses
         if (System.currentTimeMillis() - mTime < PREVENT_DOUBLE_CLICK_TIME_MS) {

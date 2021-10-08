@@ -17,6 +17,6 @@ const Mitek = NativeModules.Mitek
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Mitek.multiply(a, b);
+export function startFacialCapture(): Promise<number> {
+  return Mitek.startFacialCapture();
 }
