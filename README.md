@@ -11,11 +11,11 @@ npm install mitek-misnap-rn-bridge
 ## Usage
 
 ```js
-import { multiply } from "mitek-misnap-rn-bridge";
+import { startMiSnapWorkflow, MISNAPTYPE } from 'mitek-misnap-rn-bridge';
 
 // ...
 
-const result = await multiply(3, 7);
+const snapResults = await startMiSnapWorkflow(MISNAPTYPE.DRIVER_LICENSE);
 ```
 
 ## Contributing
