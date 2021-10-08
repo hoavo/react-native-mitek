@@ -11,11 +11,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		265672151C21DA0D55C17C29 /* libPods-MitekMisnapRnBridgeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B356CB2B7AB1BFA0AD21413C /* libPods-MitekMisnapRnBridgeExample.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* MitekMisnapRnBridgeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MitekMisnapRnBridgeExampleTests.m */; };
-		4C39C56BAD484C67AA576FFA /* libPods-MitekMisnapRnBridgeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3E69C5B9553B26FBA2DF04 /* libPods-MitekMisnapRnBridgeExample.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +49,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MitekMisnapRnBridgeExample/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MitekMisnapRnBridgeExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MitekMisnapRnBridgeExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MitekMisnapRnBridgeExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MitekMisnapRnBridgeExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47F7ED3B7971BE374F7B8635 /* Pods-MitekMisnapRnBridgeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitekMisnapRnBridgeExample.debug.xcconfig"; path = "Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MitekMisnapRnBridgeExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CA3E69C5B9553B26FBA2DF04 /* libPods-MitekMisnapRnBridgeExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MitekMisnapRnBridgeExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E00ACF0FDA8BF921659E2F9A /* Pods-MitekMisnapRnBridgeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitekMisnapRnBridgeExample.release.xcconfig"; path = "Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample.release.xcconfig"; sourceTree = "<group>"; };
+		9845C91084C1D807BC5345E4 /* Pods-MitekMisnapRnBridgeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitekMisnapRnBridgeExample.release.xcconfig"; path = "Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample.release.xcconfig"; sourceTree = "<group>"; };
+		B356CB2B7AB1BFA0AD21413C /* libPods-MitekMisnapRnBridgeExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MitekMisnapRnBridgeExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8590D643E0676F52D7C8E7 /* Pods-MitekMisnapRnBridgeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitekMisnapRnBridgeExample.debug.xcconfig"; path = "Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C39C56BAD484C67AA576FFA /* libPods-MitekMisnapRnBridgeExample.a in Frameworks */,
+				265672151C21DA0D55C17C29 /* libPods-MitekMisnapRnBridgeExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,24 +121,24 @@
 			name = MitekMisnapRnBridgeExample;
 			sourceTree = "<group>";
 		};
+		1FC070B86B04D16BDF0E9C98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA8590D643E0676F52D7C8E7 /* Pods-MitekMisnapRnBridgeExample.debug.xcconfig */,
+				9845C91084C1D807BC5345E4 /* Pods-MitekMisnapRnBridgeExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				CA3E69C5B9553B26FBA2DF04 /* libPods-MitekMisnapRnBridgeExample.a */,
+				B356CB2B7AB1BFA0AD21413C /* libPods-MitekMisnapRnBridgeExample.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6B9684456A2045ADE5A6E47E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				47F7ED3B7971BE374F7B8635 /* Pods-MitekMisnapRnBridgeExample.debug.xcconfig */,
-				E00ACF0FDA8BF921659E2F9A /* Pods-MitekMisnapRnBridgeExample.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -156,7 +156,7 @@
 				00E356EF1AD99517003FC87E /* MitekMisnapRnBridgeExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				6B9684456A2045ADE5A6E47E /* Pods */,
+				1FC070B86B04D16BDF0E9C98 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -199,14 +199,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MitekMisnapRnBridgeExample" */;
 			buildPhases = (
-				4F0A6FC082772762E3E4C96C /* [CP] Check Pods Manifest.lock */,
+				997DBD404D185DDF4612664D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C1D60D28B925C94BD88E79D7 /* [CP] Copy Pods Resources */,
-				DE5F3A45A5D41AB4131369B7 /* [CP] Embed Pods Frameworks */,
+				6C5A8444D3142132DF6DB870 /* [CP] Embed Pods Frameworks */,
+				3A4FB3BCEB2AD2260D80444B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -364,7 +364,457 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4F0A6FC082772762E3E4C96C /* [CP] Check Pods Manifest.lock */ = {
+		3A4FB3BCEB2AD2260D80444B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_01.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_02.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_03.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_04.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_05.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_06.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_07.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_08.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_09.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_10.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_11.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_12.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_13.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_14.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_15.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_16.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_17.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_18.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_19.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_20.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_21.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_22.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_23.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_24.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_25.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_26.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_27.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_28.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_29.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_30.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_31.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_32.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_33.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_34.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_35.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_36.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_37.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_38.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_39.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/bug_animation/bug_animation_40.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/button_help.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/camera_cancel_icon.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/camera_shutter_icon.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_center.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_flip_check.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_getcloser.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_hold_steady.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_less_light.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_more_light.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_reduce_glare.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_tooclose.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_use_dark_background.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_use_front_check.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/error_use_plain_background.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_00.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_05.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_10.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_100.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_15.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_20.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_25.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_30.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_35.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_40.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_45.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_50.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_55.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_60.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_65.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_70.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_75.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_80.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_85.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_90.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_fill_95.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_01.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_02.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_03.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_04.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_05.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_06.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_07.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_08.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_09.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_10.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_11.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_12.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_13.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_14.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_15.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_16.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_17.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_18.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_19.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_20.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_21.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_22.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/gauge/gauge_open_23.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/icon_flash_off.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/icon_flash_on.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/misnap_doc_center.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Resources/mitek_vignette.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX1_Files/Storyboard/MiSnapUX1.storyboard",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_branding.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_button_back.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_button_back_to_auto.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_button_capture.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_button_continue.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_button_flash_auto.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_button_flash_off.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_button_flash_on.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_button_help.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_corner_off.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_corner_on.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_menu_bottom.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_menu_top.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/misnap_en_powered_by_mitek_overlay.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_10.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_11.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_12.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_13.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_14.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_15.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_16.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_17.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_18.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_19.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_20.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_21.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_22.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_23.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_24.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_25.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_26.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_27.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_28.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_29.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_30.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_31.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_32.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_33.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Resources/wink/wink_34.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX2_Files/Storyboard/MiSnapUX2.storyboard",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/background-dots.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/checkbox_checked.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/checkbox_unchecked.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/en.lproj/misnap_powered_by_mitek.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/es.lproj/misnap_powered_by_mitek.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/fr.lproj/misnap_powered_by_mitek.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_balance_remittance.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_balance_remittance_portrait.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_check_back.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_check_back_portrait.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_check_front.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_check_front_portrait.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_doc.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_doc_portrait.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_id_card.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_id_card_portrait.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_passport.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_passport_portrait.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_w2.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/ghost_w2_portrait.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_id_back_with_background.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_id_back_with_background_portrait.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_id_back_with_background_portrait_2.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_id_with_background.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_id_with_background_portrait.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_id_with_background_portrait_2.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_passport_with_background.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_passport_with_background_portrait.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_passport_with_background_portrait_2.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_red_arrow@2x.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_red_arrow@3x.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/misnap_tutorial_warning.png",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/en.lproj",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/es.lproj",
+				"${PODS_ROOT}/../../../ios/MiSnapSDK/MiSnapUX/UX_Resources/fr.lproj",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_camera_cancel_icon.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_checkbox_checked.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_checkbox_unchecked.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_icon_flash_off.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_icon_flash_on.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_powered_by_mitek.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_tutorial_id_back_with_background.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_tutorial_id_back_with_background_portrait.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/barcode_tutorial_id_back_with_background_portrait_2.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Storyboard/MiSnapBarcodeScanner.storyboard",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/en.lproj",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/es.lproj",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScanner/MiSnapBarcodeScannerUX/Resources/fr.lproj",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_camera_cancel_icon.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_checkbox_checked.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_checkbox_unchecked.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_icon_flash_off.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_icon_flash_on.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_powered_by_mitek.png",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_tutorial_id_back_with_background.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_tutorial_id_back_with_background_portrait.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/barcode_light_tutorial_id_back_with_background_portrait_2.jpg",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Storyboard/MiSnapBarcodeScannerLight.storyboard",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/en.lproj",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/es.lproj",
+				"${PODS_ROOT}/../../../ios/MiSnapBarcodeScannerLight/MiSnapBarcodeScannerLightUX/Resources/fr.lproj",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_01.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_02.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_03.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_04.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_05.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_06.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_07.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_08.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_09.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_10.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_11.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_12.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_13.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_14.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_15.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_16.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_17.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_18.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_19.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_20.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_21.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_22.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_23.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_24.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_25.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_26.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_27.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_28.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_29.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_30.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_31.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_32.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_33.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_34.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_35.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_36.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_37.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_38.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_39.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bug_animation_40.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/button_help.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera_cancel_icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera_shutter_icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_center.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_flip_check.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_getcloser.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_hold_steady.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_less_light.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_more_light.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_reduce_glare.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_tooclose.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_use_dark_background.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_use_front_check.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/error_use_plain_background.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_00.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_05.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_10.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_100.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_15.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_20.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_25.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_30.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_35.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_40.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_45.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_50.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_55.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_60.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_65.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_70.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_75.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_80.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_85.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_90.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_fill_95.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_01.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_02.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_03.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_04.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_05.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_06.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_07.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_08.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_09.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_10.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_11.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_12.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_13.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_14.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_15.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_16.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_17.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_18.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_19.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_20.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_21.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_22.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gauge_open_23.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_flash_off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_flash_on.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_doc_center.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mitek_vignette.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MiSnapUX1.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_branding.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_button_back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_button_back_to_auto.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_button_capture.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_button_continue.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_button_flash_auto.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_button_flash_off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_button_flash_on.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_button_help.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_corner_off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_corner_on.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_menu_bottom.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_menu_top.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_en_powered_by_mitek_overlay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_10.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_11.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_12.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_13.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_14.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_15.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_16.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_17.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_18.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_19.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_20.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_21.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_22.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_23.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_24.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_25.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_26.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_27.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_28.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_29.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_30.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_31.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_32.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_33.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wink_34.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MiSnapUX2.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/background-dots.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/checkbox_checked.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/checkbox_unchecked.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_powered_by_mitek.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_balance_remittance.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_balance_remittance_portrait.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_check_back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_check_back_portrait.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_check_front.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_check_front_portrait.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_doc.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_doc_portrait.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_id_card.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_id_card_portrait.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_passport.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_passport_portrait.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_w2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ghost_w2_portrait.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_id_back_with_background.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_id_back_with_background_portrait.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_id_back_with_background_portrait_2.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_id_with_background.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_id_with_background_portrait.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_id_with_background_portrait_2.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_passport_with_background.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_passport_with_background_portrait.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_passport_with_background_portrait_2.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_red_arrow@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_red_arrow@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/misnap_tutorial_warning.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_camera_cancel_icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_checkbox_checked.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_checkbox_unchecked.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_icon_flash_off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_icon_flash_on.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_powered_by_mitek.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_tutorial_id_back_with_background.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_tutorial_id_back_with_background_portrait.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_tutorial_id_back_with_background_portrait_2.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MiSnapBarcodeScanner.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_camera_cancel_icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_checkbox_checked.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_checkbox_unchecked.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_icon_flash_off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_icon_flash_on.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_powered_by_mitek.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_tutorial_id_back_with_background.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_tutorial_id_back_with_background_portrait.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/barcode_light_tutorial_id_back_with_background_portrait_2.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MiSnapBarcodeScannerLight.storyboardc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5A8444D3142132DF6DB870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/mitek-misnap-rn-bridge/MiSnapSDK.framework/MiSnapSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/mitek-misnap-rn-bridge/MiSnapBarcodeScanner.framework/MiSnapBarcodeScanner",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/mitek-misnap-rn-bridge/MiSnapSDKScience.framework/MiSnapSDKScience",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/mitek-misnap-rn-bridge/MobileFlow.framework/MobileFlow",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/mitek-misnap-rn-bridge/MiSnapSDKMibiData.framework/MiSnapSDKMibiData",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/mitek-misnap-rn-bridge/MiSnapSDKCamera.framework/MiSnapSDKCamera",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/mitek-misnap-rn-bridge/MiSnapBarcodeScannerLight.framework/MiSnapBarcodeScannerLight",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiSnapSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiSnapBarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiSnapSDKScience.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileFlow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiSnapSDKMibiData.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiSnapSDKCamera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiSnapBarcodeScannerLight.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997DBD404D185DDF4612664D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,42 +834,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C1D60D28B925C94BD88E79D7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE5F3A45A5D41AB4131369B7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MitekMisnapRnBridgeExample/Pods-MitekMisnapRnBridgeExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -556,7 +970,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47F7ED3B7971BE374F7B8635 /* Pods-MitekMisnapRnBridgeExample.debug.xcconfig */;
+			baseConfigurationReference = BA8590D643E0676F52D7C8E7 /* Pods-MitekMisnapRnBridgeExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -579,7 +993,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E00ACF0FDA8BF921659E2F9A /* Pods-MitekMisnapRnBridgeExample.release.xcconfig */;
+			baseConfigurationReference = 9845C91084C1D807BC5345E4 /* Pods-MitekMisnapRnBridgeExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
