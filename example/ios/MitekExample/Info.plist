@@ -24,6 +24,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+  <key>NSCameraUsageDescription</key>
+  <string>Camera access is required to take a picture of your document.</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>MiSnap needs access to Microphone to record audio</string>
+  <key>NSPhotoLibraryAddUsageDescription</key>
+  <string>MiSnap needs access to PhotoLibrary to save recorded videos and images</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>MiSnap needs access to PhotoLibrary to save recorded videos and images</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

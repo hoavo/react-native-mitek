@@ -2,12 +2,14 @@ import * as React from 'react';
 
 import { TouchableOpacity, StyleSheet, View, Text } from 'react-native';
 import { startMiSnapWorkflow } from 'react-native-mitek';
+import Result from './Results';
 
 export default function App() {
+  const [result, setResult] = React.useState(null);
   const snapDriverLicenseFront = async () => {
     try {
-      let snapResults = await startMiSnapWorkflow('DRIVER_LICENSE');
-      console.log(snapResults);
+      const snapResults = await startMiSnapWorkflow('DRIVER_LICENSE');
+      setResult(snapResults as any);
     } catch (e) {
       console.error(e);
     }
@@ -15,12 +17,18 @@ export default function App() {
 
   const snapDriverLicenseBack = async () => {
     try {
-      let snapResults = await startMiSnapWorkflow('PDF417');
-      console.log(snapResults);
+      const snapResults = await startMiSnapWorkflow('PDF417');
+      setResult(snapResults as any);
     } catch (e) {
       console.error(e);
     }
   };
+  const onClose = () => {
+    setResult(null);
+  };
+  if (result) {
+    return <Result onClose={onClose} data={result} />;
+  }
 
   return (
     <View style={styles.container}>
