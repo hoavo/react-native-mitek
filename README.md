@@ -3,18 +3,22 @@
 mitek-misnap-rn-bridge
 
 ## Demo Examples
-| -------------------------------- | -------------------------------- |
-| ![Android Mitek Demo](https://user-images.githubusercontent.com/2727930/136513356-61d3d44d-9963-4cad-b020-012ed62ebf9c.mp4) | ![iOS Demo](https://user-images.githubusercontent.com/2727930/136513380-6b41cbac-9352-4162-8503-52399f0da01d.MP4) |
+https://user-images.githubusercontent.com/2727930/136515785-ff1ea3ad-0eb1-42c5-a5e8-c559d0abbb87.MP4
 
+https://user-images.githubusercontent.com/2727930/136515625-93f00717-db20-4c2b-a04d-b2e884b2d1e3.mp4
 
 
 ## Installation
+
+
 
 ```sh
 npm install mitek-misnap-rn-bridge
 ```
 
 ## Usage
+
+
 
 ```js
 import { startMiSnapWorkflow, MISNAPTYPE, setServerTypeAndVersion } from 'mitek-misnap-rn-bridge';
