@@ -44,11 +44,12 @@ public class MitekMisnapRnBridgeModule extends ReactContextBaseJavaModule {
     private Promise promise;
     private String selectedJobType;
     private int ocrMode = ScienceApi.REQUEST_OCR_NONE;
+    public static final int RESULT_FACE_CODE = 4;
 
     private final ActivityEventListener activityEventListener = new ActivityEventListener() {
         @Override
         public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
-            if (MiSnapApi.RESULT_PICTURE_CODE == requestCode) {
+            if (RESULT_FACE_CODE == requestCode) {
                 if (RESULT_OK == resultCode) {
                     if (data != null) {
                         Bundle extras = data.getExtras();
@@ -65,13 +66,8 @@ public class MitekMisnapRnBridgeModule extends ReactContextBaseJavaModule {
                                 String base64EncodedImage = Base64.encodeToString(sImage, Base64.DEFAULT);
 
                                 final WritableMap map = Arguments.createMap();
-                                if (MiSnapApi.PARAMETER_DOCTYPE_DRIVER_LICENSE.equalsIgnoreCase(selectedJobType)) {
-                                    map.putString("miSnapImage", base64EncodedImage);
-                                    map.putString("miSnapMibiData", mibiData);
-                                } else {
-                                    map.putString("faceCaptureImage", base64EncodedImage);
-                                    map.putString("faceCaptureMibiData", mibiData);
-                                }
+                                map.putString("miSnapImage", base64EncodedImage);
+                                map.putString("miSnapMibiData", mibiData);
 
                                 promise.resolve(map);
                                 break;
@@ -172,7 +168,7 @@ public class MitekMisnapRnBridgeModule extends ReactContextBaseJavaModule {
         final Activity activity = reactContext.getCurrentActivity();
         intentMiSnap = new Intent(activity, MiSnapWorkflowActivity_UX2.class);
         intentMiSnap.putExtra(MiSnapApi.JOB_SETTINGS, misnapParams.toString());
-        activity.startActivityForResult(intentMiSnap, MiSnapApi.RESULT_PICTURE_CODE);
+        activity.startActivityForResult(intentMiSnap, RESULT_FACE_CODE);
     }
 
 
