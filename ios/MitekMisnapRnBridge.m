@@ -73,8 +73,8 @@ RCT_REMAP_METHOD(doMiSnapWorkflow,
 {
     if ([self.selectedJobType isEqualToString:kMiSnapDocumentTypeDriverLicense] && ([self.encodedImage length] > 0))
     {
-        NSDictionary *resultDict = @{@"miSnapImage": self.encodedImage,
-                                     @"miSnapMibiData": self.miSnapMibiData[@"MiSnapMIBIData"]};
+        NSDictionary *resultDict = @{@"image": self.encodedImage,
+                                     @"data": self.miSnapMibiData[@"MiSnapMIBIData"]};
         self.resolveBlock(resultDict);
     }
     // Reset

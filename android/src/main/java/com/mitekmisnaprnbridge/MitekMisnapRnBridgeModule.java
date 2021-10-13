@@ -66,8 +66,8 @@ public class MitekMisnapRnBridgeModule extends ReactContextBaseJavaModule {
                                 String base64EncodedImage = Base64.encodeToString(sImage, Base64.DEFAULT);
 
                                 final WritableMap map = Arguments.createMap();
-                                map.putString("miSnapImage", base64EncodedImage);
-                                map.putString("miSnapMibiData", mibiData);
+                                map.putString("image", base64EncodedImage);
+                                map.putString("data", mibiData);
 
                                 promise.resolve(map);
                                 break;

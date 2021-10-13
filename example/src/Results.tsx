@@ -20,9 +20,9 @@ export default function Result({ data = {} as any, onClose = () => {} }) {
         <Image
           style={{ height: 400, width: 400, backgroundColor: 'white' }}
           resizeMode="contain"
-          source={{ uri: `data:image/jpeg;base64,${data.miSnapImage}` }}
+          source={{ uri: `data:image/jpeg;base64,${data.image}` }}
         />
-        <Text style={styles.text}>{JSON.stringify(data.miSnapMibiData)}</Text>
+        <Text style={styles.text}>{JSON.stringify(data.data)}</Text>
       </ScrollView>
     </SafeAreaView>
   );
